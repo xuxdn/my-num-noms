@@ -592,25 +592,59 @@
     }
 
 
-    /* 일 만들기 */
+/* 날짜 만들기 */
 
-    for (
-      let i = 1;
-      i <= 31;
-      i++
-    ) {
+function updateDays() {
 
-      const option =
-        document.createElement("option");
+  const month = Number(monthSelect.value);
 
-      option.value = i;
+  // 기존 날짜 목록 지우기
+  daySelect.innerHTML = '<option value="">일</option>';
 
-      option.textContent =
-        i + "일";
+  // 월을 선택하지 않았으면 끝
+  if (!month) {
+    return;
+  }
 
-      daySelect.appendChild(option);
+  // 각 월의 날짜 수
+  const daysInMonth = [
+    31, // 1월
+    28, // 2월
+    31, // 3월
+    30, // 4월
+    31, // 5월
+    30, // 6월
+    31, // 7월
+    31, // 8월
+    30, // 9월
+    31, // 10월
+    30, // 11월
+    31  // 12월
+  ];
 
-    }
+  const days = daysInMonth[month - 1];
+
+  for (let i = 1; i <= days; i++) {
+
+    const option =
+      document.createElement("option");
+
+    option.value = i;
+
+    option.textContent = i + "일";
+
+    daySelect.appendChild(option);
+
+  }
+
+}
+
+
+// 월을 바꾸면 날짜도 바꾸기
+monthSelect.addEventListener(
+  "change",
+  updateDays
+);
 
 
     /* 캐릭터 찾기 */
