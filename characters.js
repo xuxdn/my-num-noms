@@ -6,6 +6,7 @@ const characters = {
     number: "101",
     emoji: "🍦",
     image: "",
+    link: "페이지 주소",
     description: "부드럽고 달콤한 매력의 Num Noms예요! ♡"
   },
 
