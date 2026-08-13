@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>내 생일 Num Noms를 찾아보자!</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #fff3f7;
+      color: #5b4050;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 500px;
+      background: white;
+      border-radius: 30px;
+      padding: 40px 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(230, 130, 160, 0.2);
+    }
+
+    .strawberry {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: #e86b91;
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    .subtitle {
+      color: #9b7182;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .birthday-select {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    select {
+      padding: 14px;
+      border: 2px solid #f3b4c8;
+      border-radius: 15px;
+      background: #fff8fb;
+      color: #6b4857;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button {
+      border: none;
+      border-radius: 20px;
+      padding: 15px 30px;
+      background: #f28aaa;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(242, 138, 170, 0.3);
+    }
+
+    button:hover {
+      background: #e9789b;
+      transform: translateY(-2px);
+    }
+
+    #result {
+      display: none;
+      margin-top: 30px;
+      padding-top: 25px;
+      border-top: 2px dashed #f3b4c8;
+    }
+
+    .character {
+      font-size: 80px;
+      margin: 15px;
+    }
+
+    .character-name {
+      color: #e86b91;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .date-text {
+      color: #9b7182;
+      margin: 8px 0 15px;
+    }
+
+    .description {
+      background: #fff3f7;
+      border-radius: 15px;
+      padding: 15px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="strawberry">🍓</div>
+
+    <h1>내 생일 Num Noms를<br>찾아보자! ♡</h1>
+
+    <p class="subtitle">
+      나의 생일을 선택하면<br>
+      나에게 맞는 Num Noms를 찾아드려요!
+    </p>
+
+    <div class="birthday-select">
+
+      <select id="month">
+        <option value="">월</option>
+      </select>
+
+      <select id="day">
+        <option value="">일</option>
+      </select>
+
+    </div>
+
+    <button onclick="findCharacter()">
+      ✨ 내 캐릭터 찾기! ✨
+    </button>
+
+    <div id="result">
+
+      <p>🎀 당신의 생일 Num Noms는 🎀</p>
+
+      <div class="character" id="characterEmoji">
+        🍓
+      </div>
+
+      <div class="character-name" id="characterName">
+        Strawberry
+      </div>
+
+      <div class="date-text" id="dateText"></div>
+
+      <div class="description" id="description">
+        상큼하고 달콤한 매력을 가진 Num Noms예요! ♡
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    const monthSelect = document.getElementById("month");
+    const daySelect = document.getElementById("day");
+
+    // 월 만들기
+    for (let i = 1; i <= 12; i++) {
+      const option = document.createElement("option");
+      option.value = i;
+      option.textContent = i + "월";
+      monthSelect.appendChild(option);
+    }
+
+    // 일 만들기
+    for (let i = 1; i <= 31; i++) {
+      const option = document.createElement("option");
+      option.value = i;
+      option.textContent = i + "일";
+      daySelect.appendChild(option);
+    }
+
+    function findCharacter() {
+
+      const month = monthSelect.value;
+      const day = daySelect.value;
+
+      if (!month || !day) {
+        alert("생일을 선택해주세요! 🍓");
+        return;
+      }
+
+      document.getElementById("result").style.display = "block";
+
+      document.getElementById("dateText").textContent =
+        month + "월 " + day + "일";
+
+    }
+
+  </script>
+
+</body>
+</html>
