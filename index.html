@@ -428,14 +428,26 @@
     }
     
     .site-footer {
-      width: 100%;
-      text-align: center;
-      margin-top: 50px;
-      padding: 25px 20px;
-      color: #999;
-      font-size: 12px;
-      line-height: 1.8;
-    }
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px 20px;
+  color: #999;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.character-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: #ffdce8;
+  color: #654653;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
     
   </style>
 
@@ -709,6 +721,16 @@ function findCharacter() {
 
     document.getElementById("characterName").textContent =
       character.name;
+
+    const characterLink =
+      document.getElementById("characterLink");
+
+  if (character.link) {
+    characterLink.href = character.link;
+    characterLink.style.display = "inline-block";
+  } else {
+    characterLink.style.display = "none";
+  }
 
     const characterImage =
       document.getElementById("characterImage");
