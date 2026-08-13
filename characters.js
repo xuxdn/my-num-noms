@@ -1906,5 +1906,285 @@ const characters = {
     emoji: "🍭",
     image: "",
     description: "빙글빙글 소용돌이 캔디처럼 귀여운 매력이 있어요! 🍭"
+  },
+
+    "8-1": {
+    name: "Rainbow Pop",
+    series: "Series 3",
+    number: "062",
+    emoji: "🌈",
+    image: "",
+    description: "알록달록 무지개처럼 톡톡 튀는 매력이 있어요! 🌈"
+  },
+
+  "8-2": {
+    name: "Flower Tortilla",
+    series: "Series 3",
+    number: "063",
+    emoji: "🌮",
+    image: "",
+    description: "알록달록하고 귀여운 매력이 가득해요! 🌸"
+  },
+
+  "8-3": {
+    name: "Cinna Churro",
+    series: "Series 3",
+    number: "064",
+    emoji: "🥨",
+    image: "",
+    description: "달콤하고 따뜻한 시나몬처럼 포근해요! 🤎"
+  },
+
+  "8-4": {
+    name: "Cheesy Burrito",
+    series: "Series 3",
+    number: "065",
+    emoji: "🌯",
+    image: "",
+    description: "치즈처럼 고소하고 귀여운 매력이 있어요! 🧀"
+  },
+
+  "8-5": {
+    name: "Tasty Taco",
+    series: "Series 3",
+    number: "066",
+    emoji: "🌮",
+    image: "",
+    description: "톡톡 튀는 타코처럼 신나는 매력이 있어요! 🌮"
+  },
+
+  "8-6": {
+    name: "Berry Churro",
+    series: "Series 3",
+    number: "067",
+    emoji: "🍓",
+    image: "",
+    description: "새콤달콤한 베리와 츄러스 같은 매력이에요! 💕"
+  },
+
+  "8-7": {
+    name: "Slice & Wedge Erase-It",
+    series: "Series 3",
+    number: "068",
+    emoji: "🍉",
+    image: "",
+    description: "귀엽고 상큼한 과일 같은 매력이 있어요! 🍉"
+  },
+
+  "8-8": {
+    name: "Pea & Pod Erase-It",
+    series: "Series 3",
+    number: "069",
+    emoji: "🫛",
+    image: "",
+    description: "싱그럽고 귀여운 완두콩 같은 매력이 있어요! 💚"
+  },
+
+  "8-9": {
+    name: "Mallow Erase-It",
+    series: "Series 3",
+    number: "070",
+    emoji: "☁️",
+    image: "",
+    description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
+  },
+
+  "8-10": {
+    name: "Nana Erase-It",
+    series: "Series 3",
+    number: "071",
+    emoji: "🍌",
+    image: "",
+    description: "달콤한 바나나처럼 사랑스러운 매력이 있어요! 🍌"
+  },
+
+  "8-11": {
+    name: "Cherry Vanilla Gloss-Up",
+    series: "Series 3",
+    number: "072",
+    emoji: "🍒",
+    image: "",
+    description: "체리와 바닐라처럼 달콤하고 부드러워요! 🍒"
+  },
+
+  "8-12": {
+    name: "Orange Piña Gloss-Up",
+    series: "Series 3",
+    number: "073",
+    emoji: "🍊",
+    image: "",
+    description: "오렌지와 파인애플처럼 상큼해요! 🍍"
+  },
+
+  "8-13": {
+    name: "Straw-Nana Gloss-Up",
+    series: "Series 3",
+    number: "074",
+    emoji: "🍓",
+    image: "",
+    description: "딸기와 바나나처럼 달콤하고 사랑스러워요! 🍓"
+  },
+
+  "8-14": {
+    name: "Cucumber Melon Gloss-Up",
+    series: "Series 3",
+    number: "075",
+    emoji: "🍈",
+    image: "",
+    description: "시원하고 싱그러운 멜론 같은 매력이 있어요! 🍈"
+  },
+
+  "8-15": {
+    name: "Mintberry Gloss-Up",
+    series: "Series 3",
+    number: "076",
+    emoji: "🫐",
+    image: "",
+    description: "상쾌한 민트와 달콤한 베리의 매력이 있어요! 💚"
+  },
+
+  "8-16": {
+    name: "Choco-Razz Gloss-Up",
+    series: "Series 3",
+    number: "077",
+    emoji: "🍫",
+    image: "",
+    description: "초콜릿과 라즈베리처럼 달콤하고 상큼해요! 🍫"
+  },
+
+  "8-17": {
+    name: "Van-Berry Gloss-Up",
+    series: "Series 3",
+    number: "078",
+    emoji: "🫐",
+    image: "",
+    description: "바닐라와 베리처럼 부드럽고 달콤해요! 💜"
+  },
+
+  "8-18": {
+    name: "Peachy Piña Gloss-Up",
+    series: "Series 3",
+    number: "079",
+    emoji: "🍑",
+    image: "",
+    description: "복숭아와 파인애플처럼 상큼달콤해요! 🍑"
+  },
+
+  "8-19": {
+    name: "Grapple Gloss-Up",
+    series: "Series 3",
+    number: "080",
+    emoji: "🍇",
+    image: "",
+    description: "포도와 사과처럼 상큼하고 달콤해요! 🍇"
+  },
+
+  "8-20": {
+    name: "Blue Razz Gloss-Up",
+    series: "Series 3",
+    number: "081",
+    emoji: "🫐",
+    image: "",
+    description: "블루 라즈베리처럼 톡톡 튀는 매력이 있어요! 💙"
+  },
+
+  "8-21": {
+    name: "Choco S'Mores Gloss-Up",
+    series: "Series 3",
+    number: "082",
+    emoji: "🍫",
+    image: "",
+    description: "초콜릿 스모어처럼 달콤하고 포근해요! 🍫"
+  },
+
+  "8-22": {
+    name: "Glitter Surprise Gloss-Up",
+    series: "Series 3",
+    number: "083",
+    emoji: "✨",
+    image: "",
+    description: "반짝반짝 특별한 매력이 가득해요! ✨"
+  },
+
+  "8-23": {
+    name: "Donut Stamp-It",
+    series: "Series 3",
+    number: "084",
+    emoji: "🍩",
+    image: "",
+    description: "달콤한 도넛처럼 귀엽고 사랑스러워요! 🍩"
+  },
+
+  "8-24": {
+    name: "Berry Gummy Stamp-It",
+    series: "Series 3",
+    number: "085",
+    emoji: "🫐",
+    image: "",
+    description: "말랑말랑한 베리 구미처럼 달콤해요! 💕"
+  },
+
+  "8-25": {
+    name: "Melon Gummy Stamp-It",
+    series: "Series 3",
+    number: "086",
+    emoji: "🍈",
+    image: "",
+    description: "달콤하고 말랑한 멜론 구미 같은 매력이에요! 🍈"
+  },
+
+  "8-26": {
+    name: "Berry Stamp-It",
+    series: "Series 3",
+    number: "087",
+    emoji: "🍓",
+    image: "",
+    description: "새콤달콤한 베리처럼 귀여운 매력이 있어요! 🍓"
+  },
+
+  "8-27": {
+    name: "Blueberry Stamp-It",
+    series: "Series 3",
+    number: "088",
+    emoji: "🫐",
+    image: "",
+    description: "상큼한 블루베리처럼 사랑스러워요! 💙"
+  },
+
+  "8-28": {
+    name: "Peachy Stamp-It",
+    series: "Series 3",
+    number: "089",
+    emoji: "🍑",
+    image: "",
+    description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
+  },
+
+    "8-29": {
+    name: "Sugar Wafer",
+    series: "Series 4",
+    number: "001",
+    emoji: "🍪",
+    image: "",
+    description: "바삭하고 달콤한 웨이퍼처럼 사랑스러운 매력이 있어요! 🍪"
+  },
+
+  "8-30": {
+    name: "Latte Crisp",
+    series: "Series 4",
+    number: "002",
+    emoji: "☕",
+    image: "",
+    description: "부드러운 라떼처럼 포근하고 달콤한 매력이 있어요! ☕"
+  },
+
+  "8-31": {
+    name: "Willow Wafer",
+    series: "Series 4",
+    number: "003",
+    emoji: "🍪",
+    image: "",
+    description: "달콤하고 바삭한 웨이퍼 같은 매력이 있어요! 🍪"
   }
+  
 };
