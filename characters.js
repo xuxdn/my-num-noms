@@ -16,6 +16,7 @@ const characters = {
     number: "102",
     emoji: "🍦",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nilla_Swirl",
     description: "달콤하고 부드러운 매력이 가득해요! ✨"
   },
 
@@ -25,6 +26,7 @@ const characters = {
     number: "103",
     emoji: "🍫",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Choco_Nana",
     description: "초콜릿과 바나나의 달콤한 매력이 있어요! 🍫"
   },
 
@@ -34,6 +36,7 @@ const characters = {
     number: "104",
     emoji: "🍌",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nana_Cream",
     description: "부드럽고 달콤한 바나나 크림 느낌이에요! 🎀"
   },
 
