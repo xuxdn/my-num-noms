@@ -5,6 +5,7 @@ const characters = {
     series: "Series 1",
     number: "114",
     emoji: "🍓",
+    image: "",
     description: "상큼하고 달콤한 매력을 가진 Num Noms예요! ♡"
   },
 
