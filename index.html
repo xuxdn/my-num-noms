@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>내 생일 Num Noms를 찾아보자!</title>
+
+  <title>내 생일 Num Noms를 찾아보자! 🍓</title>
 
   <style>
+
     * {
       box-sizing: border-box;
     }
@@ -13,198 +15,650 @@
     body {
       margin: 0;
       min-height: 100vh;
-      font-family: Arial, sans-serif;
-      background: #fff3f7;
-      color: #5b4050;
+
+      font-family:
+        "Arial",
+        "Malgun Gothic",
+        sans-serif;
+
+      background:
+        radial-gradient(circle at 10% 20%, #ffdce8 0%, transparent 25%),
+        radial-gradient(circle at 90% 80%, #ffe7f0 0%, transparent 30%),
+        linear-gradient(135deg, #fff4f8, #ffeaf2);
+
+      color: #654653;
+
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+
+      padding: 30px;
+
+      overflow-x: hidden;
     }
+
+
+    /* 배경 장식 */
+
+    .decoration {
+      position: fixed;
+
+      font-size: 40px;
+
+      opacity: 0.75;
+
+      animation: float 4s ease-in-out infinite;
+
+      pointer-events: none;
+    }
+
+    .decoration.one {
+      top: 8%;
+      left: 8%;
+    }
+
+    .decoration.two {
+      top: 15%;
+      right: 10%;
+
+      animation-delay: 1s;
+    }
+
+    .decoration.three {
+      bottom: 10%;
+      left: 12%;
+
+      animation-delay: 2s;
+    }
+
+    .decoration.four {
+      bottom: 15%;
+      right: 10%;
+
+      animation-delay: 0.5s;
+    }
+
+
+    @keyframes float {
+
+      0%, 100% {
+        transform: translateY(0) rotate(-5deg);
+      }
+
+      50% {
+        transform: translateY(-12px) rotate(5deg);
+      }
+
+    }
+
+
+    /* 메인 카드 */
 
     .container {
+
       width: 100%;
-      max-width: 500px;
-      background: white;
-      border-radius: 30px;
-      padding: 40px 25px;
+      max-width: 520px;
+
+      background: rgba(255,255,255,0.92);
+
+      border: 3px solid #ffd1df;
+
+      border-radius: 35px;
+
+      padding: 45px 35px;
+
       text-align: center;
-      box-shadow: 0 10px 30px rgba(230, 130, 160, 0.2);
+
+      box-shadow:
+        0 20px 50px rgba(210, 105, 140, 0.18),
+        0 5px 15px rgba(210, 105, 140, 0.08);
+
+      position: relative;
+
+      z-index: 2;
+
+      animation: appear 0.7s ease;
     }
+
+
+    @keyframes appear {
+
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+    }
+
+
+    /* 딸기 */
 
     .strawberry {
-      font-size: 60px;
-      margin-bottom: 10px;
+
+      font-size: 72px;
+
+      animation: strawberry 2.5s ease-in-out infinite;
+
+      display: inline-block;
     }
+
+
+    @keyframes strawberry {
+
+      0%, 100% {
+        transform: rotate(-5deg) translateY(0);
+      }
+
+      50% {
+        transform: rotate(5deg) translateY(-7px);
+      }
+
+    }
+
 
     h1 {
-      color: #e86b91;
-      font-size: 30px;
-      margin: 10px 0;
+
+      margin: 15px 0 12px;
+
+      color: #e56d94;
+
+      font-size: 31px;
+
+      line-height: 1.35;
+
+      letter-spacing: -1px;
     }
+
 
     .subtitle {
-      color: #9b7182;
+
+      color: #a27686;
+
+      line-height: 1.7;
+
       margin-bottom: 30px;
-      line-height: 1.6;
+
+      font-size: 15px;
     }
 
+
+    /* 생일 선택 */
+
     .birthday-select {
+
       display: flex;
-      gap: 10px;
+
       justify-content: center;
+
+      gap: 12px;
+
       margin-bottom: 25px;
     }
 
+
     select {
-      padding: 14px;
-      border: 2px solid #f3b4c8;
-      border-radius: 15px;
+
+      width: 120px;
+
+      padding: 15px 12px;
+
+      border: 2px solid #f5b5ca;
+
+      border-radius: 18px;
+
       background: #fff8fb;
-      color: #6b4857;
+
+      color: #704c5a;
+
       font-size: 16px;
-      cursor: pointer;
-    }
 
-    button {
-      border: none;
-      border-radius: 20px;
-      padding: 15px 30px;
-      background: #f28aaa;
-      color: white;
-      font-size: 17px;
       font-weight: bold;
+
       cursor: pointer;
-      box-shadow: 0 5px 15px rgba(242, 138, 170, 0.3);
+
+      outline: none;
+
+      transition: 0.2s;
     }
 
-    button:hover {
-      background: #e9789b;
+
+    select:hover {
+
+      border-color: #e987a8;
+
       transform: translateY(-2px);
     }
 
-    #result {
-      display: none;
-      margin-top: 30px;
-      padding-top: 25px;
-      border-top: 2px dashed #f3b4c8;
+
+    select:focus {
+
+      border-color: #e56d94;
+
+      box-shadow: 0 0 0 4px rgba(229,109,148,0.12);
     }
+
+
+    /* 버튼 */
+
+    .find-button {
+
+      border: none;
+
+      border-radius: 25px;
+
+      padding: 16px 32px;
+
+      background:
+        linear-gradient(135deg, #f28aaa, #e96f99);
+
+      color: white;
+
+      font-size: 17px;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      box-shadow:
+        0 8px 18px rgba(233,111,153,0.3);
+
+      transition: 0.2s;
+    }
+
+
+    .find-button:hover {
+
+      transform: translateY(-3px) scale(1.02);
+
+      box-shadow:
+        0 12px 22px rgba(233,111,153,0.35);
+    }
+
+
+    .find-button:active {
+
+      transform: translateY(0) scale(0.98);
+    }
+
+
+    /* 결과 */
+
+    #result {
+
+      display: none;
+
+      margin-top: 35px;
+
+      padding-top: 30px;
+
+      border-top: 2px dashed #f3bfd0;
+
+      animation: resultAppear 0.6s ease;
+    }
+
+
+    @keyframes resultAppear {
+
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+    }
+
+
+    .result-title {
+
+      color: #b87a8e;
+
+      font-size: 14px;
+
+      margin-bottom: 5px;
+    }
+
 
     .character {
-      font-size: 80px;
-      margin: 15px;
+
+      font-size: 95px;
+
+      margin: 10px;
+
+      animation: characterPop 0.7s ease;
     }
+
+
+    @keyframes characterPop {
+
+      0% {
+        transform: scale(0.5) rotate(-10deg);
+        opacity: 0;
+      }
+
+      70% {
+        transform: scale(1.1) rotate(5deg);
+      }
+
+      100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+      }
+
+    }
+
 
     .character-name {
-      color: #e86b91;
-      font-size: 24px;
+
+      color: #e56d94;
+
+      font-size: 26px;
+
       font-weight: bold;
+
+      margin-bottom: 5px;
     }
+
 
     .date-text {
-      color: #9b7182;
-      margin: 8px 0 15px;
+
+      color: #a27686;
+
+      margin-bottom: 18px;
     }
 
+
     .description {
-      background: #fff3f7;
-      border-radius: 15px;
-      padding: 15px;
-      line-height: 1.6;
+
+      background: #fff2f7;
+
+      border: 1px solid #ffd5e2;
+
+      border-radius: 18px;
+
+      padding: 16px;
+
+      line-height: 1.7;
+
+      color: #765665;
+
+      font-size: 14px;
     }
+
+
+    .small-note {
+
+      margin-top: 25px;
+
+      color: #c296a5;
+
+      font-size: 12px;
+    }
+
+
+    /* 모바일 */
+
+    @media (max-width: 600px) {
+
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 35px 20px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      .decoration {
+        font-size: 28px;
+      }
+
+    }
+
   </style>
+
 </head>
+
 
 <body>
 
+
+  <!-- 배경 장식 -->
+
+  <div class="decoration one">🎀</div>
+
+  <div class="decoration two">✨</div>
+
+  <div class="decoration three">🍓</div>
+
+  <div class="decoration four">💗</div>
+
+
+  <!-- 메인 -->
+
   <div class="container">
 
-    <div class="strawberry">🍓</div>
+    <div class="strawberry">
+      🍓
+    </div>
 
-    <h1>내 생일 Num Noms를<br>찾아보자! ♡</h1>
+
+    <h1>
+      내 생일 Num Noms를<br>
+      찾아보자! ♡
+    </h1>
+
 
     <p class="subtitle">
+
       나의 생일을 선택하면<br>
-      나에게 맞는 Num Noms를 찾아드려요!
+
+      나에게 맞는 Num Noms를 찾아드려요! ✨
+
     </p>
+
+
+    <!-- 생일 -->
 
     <div class="birthday-select">
 
       <select id="month">
-        <option value="">월</option>
+
+        <option value="">
+          월
+        </option>
+
       </select>
 
+
       <select id="day">
-        <option value="">일</option>
+
+        <option value="">
+          일
+        </option>
+
       </select>
 
     </div>
 
-    <button onclick="findCharacter()">
+
+    <!-- 버튼 -->
+
+    <button
+      class="find-button"
+      onclick="findCharacter()"
+    >
+
       ✨ 내 캐릭터 찾기! ✨
+
     </button>
+
+
+    <!-- 결과 -->
 
     <div id="result">
 
-      <p>🎀 당신의 생일 Num Noms는 🎀</p>
+      <div class="result-title">
+        🎀 당신의 생일 Num Noms는 🎀
+      </div>
 
-      <div class="character" id="characterEmoji">
+
+      <div
+        class="character"
+        id="characterEmoji"
+      >
         🍓
       </div>
 
-      <div class="character-name" id="characterName">
+
+      <div
+        class="character-name"
+        id="characterName"
+      >
         Strawberry
       </div>
 
-      <div class="date-text" id="dateText"></div>
 
-      <div class="description" id="description">
-        상큼하고 달콤한 매력을 가진 Num Noms예요! ♡
+      <div
+        class="date-text"
+        id="dateText"
+      >
       </div>
+
+
+      <div
+        class="description"
+        id="description"
+      >
+
+        상큼하고 달콤한 매력을 가진
+        Num Noms예요! ♡
+
+      </div>
+
+
+    </div>
+
+
+    <div class="small-note">
+
+      🍰 당신만의 특별한 생일 캐릭터를 찾아보세요!
 
     </div>
 
   </div>
 
+
+
   <script>
 
-    const monthSelect = document.getElementById("month");
-    const daySelect = document.getElementById("day");
 
-    // 월 만들기
-    for (let i = 1; i <= 12; i++) {
-      const option = document.createElement("option");
+    const monthSelect =
+      document.getElementById("month");
+
+    const daySelect =
+      document.getElementById("day");
+
+
+    /* 월 만들기 */
+
+    for (
+      let i = 1;
+      i <= 12;
+      i++
+    ) {
+
+      const option =
+        document.createElement("option");
+
       option.value = i;
-      option.textContent = i + "월";
+
+      option.textContent =
+        i + "월";
+
       monthSelect.appendChild(option);
+
     }
 
-    // 일 만들기
-    for (let i = 1; i <= 31; i++) {
-      const option = document.createElement("option");
+
+    /* 일 만들기 */
+
+    for (
+      let i = 1;
+      i <= 31;
+      i++
+    ) {
+
+      const option =
+        document.createElement("option");
+
       option.value = i;
-      option.textContent = i + "일";
+
+      option.textContent =
+        i + "일";
+
       daySelect.appendChild(option);
+
     }
+
+
+    /* 캐릭터 찾기 */
 
     function findCharacter() {
 
-      const month = monthSelect.value;
-      const day = daySelect.value;
+
+      const month =
+        monthSelect.value;
+
+      const day =
+        daySelect.value;
+
 
       if (!month || !day) {
-        alert("생일을 선택해주세요! 🍓");
+
+        alert(
+          "생일을 선택해주세요! 🍓"
+        );
+
         return;
+
       }
 
-      document.getElementById("result").style.display = "block";
 
-      document.getElementById("dateText").textContent =
+      document.getElementById(
+        "result"
+      ).style.display = "block";
+
+
+      document.getElementById(
+        "dateText"
+      ).textContent =
         month + "월 " + day + "일";
+
+
+      document.getElementById(
+        "result"
+      ).scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+      });
 
     }
 
   </script>
 
+
 </body>
+
 </html>
