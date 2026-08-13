@@ -46,6 +46,7 @@ const characters = {
     number: "105",
     emoji: "🍋",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Lemony_Burst",
     description: "상큼하고 톡톡 튀는 레몬 같은 매력이 있어요! ✨"
   },
 
@@ -55,6 +56,7 @@ const characters = {
     number: "106",
     emoji: "🍋",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Pinkie_Lemonade",
     description: "달콤상큼한 레모네이드 같은 매력이 있어요! 💕"
   },
 
@@ -64,6 +66,7 @@ const characters = {
     number: "107",
     emoji: "🍊",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Orange_Swirl",
     description: "상큼한 오렌지처럼 밝은 매력이 있어요! 🍊"
   },
 
@@ -72,7 +75,9 @@ const characters = {
     series: "Series 1",
     number: "108",
     emoji: "🍑",
+    link: "https://num-noms.fandom.com/wiki/Patty_Peach",
     image: "",
+   
     description: "복숭아처럼 달콤하고 사랑스러워요! 🎀"
   },
 
@@ -81,7 +86,9 @@ const characters = {
     series: "Series 1",
     number: "109",
     emoji: "🥭",
+    link: "https://num-noms.fandom.com/wiki/Mimi_Mango",
     image: "",
+   
     description: "달콤하고 상큼한 망고 같은 매력이 있어요! 🥭"
   },
 
@@ -91,6 +98,7 @@ const characters = {
     number: "110",
     emoji: "🍓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Sweetie_Strawberry",
     description: "달콤하고 사랑스러운 딸기 매력이 가득해요! 🍓"
   },
 
@@ -100,6 +108,7 @@ const characters = {
     number: "111",
     emoji: "🩷",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Betsy_Bubblegum",
     description: "통통 튀는 버블검 같은 매력이 있어요! 🩷"
   },
 
@@ -109,6 +118,7 @@ const characters = {
     number: "112",
     emoji: "🍒",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cheery_Cherie",
     description: "체리처럼 발랄하고 상큼한 매력이 있어요! 🍒"
   },
 
@@ -118,6 +128,7 @@ const characters = {
     number: "113",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Berry_Swirl",
     description: "달콤한 베리 스월 같은 매력이 가득해요! 💕"
   },
 
@@ -127,6 +138,7 @@ const characters = {
     number: "114",
     emoji: "🍓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Raspberry_Cream",
     description: "새콤달콤한 라즈베리 크림 같은 매력이 있어요! 🍓"
   },
 
@@ -136,6 +148,7 @@ const characters = {
     number: "115",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Mary_Mulberry",
     description: "달콤한 베리 느낌의 사랑스러운 매력이 있어요! 💜"
   },
 
@@ -145,6 +158,7 @@ const characters = {
     number: "116",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Wendy_Wild_Berry",
     description: "상큼한 와일드베리처럼 톡톡 튀는 매력이 있어요! 💜"
   },
 
@@ -154,6 +168,7 @@ const characters = {
     number: "117",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Bonnie_Blueberry",
     description: "귀엽고 상큼한 블루베리 매력이 가득해요! 💙"
   },
 
@@ -163,6 +178,7 @@ const characters = {
     number: "118",
     emoji: "🍒",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cherry_Choco",
     description: "체리와 초콜릿의 달콤한 느낌이 매력적이에요! 🍫"
   },
 
@@ -172,6 +188,7 @@ const characters = {
     number: "119",
     emoji: "🌿",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Minty_Swirl",
     description: "상쾌하고 시원한 민트 느낌이에요! 💚"
   },
 
@@ -181,6 +198,7 @@ const characters = {
     number: "120",
     emoji: "🍬",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Candie_Puffs",
     description: "알록달록 달콤한 캔디 같은 매력이 있어요! 🍬"
   },
 
@@ -190,6 +208,7 @@ const characters = {
     number: "121",
     emoji: "❤️",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Red_Velvety",
     description: "부드럽고 달콤한 레드벨벳 같은 매력이 있어요! ❤️"
   },
 
@@ -199,6 +218,7 @@ const characters = {
     number: "122",
     emoji: "🎂",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Betty_B-Day",
     description: "생일처럼 특별하고 달콤한 매력이 있어요! 🎂"
   },
 
@@ -208,6 +228,7 @@ const characters = {
     number: "123",
     emoji: "🍫",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Choco_Berry",
     description: "초콜릿과 베리의 달콤한 조합 같은 매력이 있어요! 💕"
   },
 
@@ -217,6 +238,7 @@ const characters = {
     number: "124",
     emoji: "🖤",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Lulu_Licorice",
     description: "독특하고 달콤한 리코리스 같은 매력이 있어요! 🖤"
   },
 
@@ -226,6 +248,7 @@ const characters = {
     number: "125",
     emoji: "🍦",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nilla_Twirl",
     description: "부드러운 바닐라처럼 포근한 매력이 있어요! ♡"
   },
 
@@ -235,6 +258,7 @@ const characters = {
     number: "126",
     emoji: "🍮",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Caramel_Cream",
     description: "진하고 달콤한 카라멜 크림 같은 매력이 있어요! 🍮"
   },
 
@@ -244,6 +268,7 @@ const characters = {
     number: "127",
     emoji: "🍌",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nana_Berry",
     description: "바나나와 베리처럼 달콤한 매력이 있어요! 💕"
   },
 
@@ -253,6 +278,7 @@ const characters = {
     number: "128",
     emoji: "🍌",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Billy_Banana",
     description: "귀엽고 달콤한 바나나 같은 매력이 있어요! 🍌"
   },
 
@@ -262,6 +288,7 @@ const characters = {
     number: "129",
     emoji: "🥭",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Tango_Mango",
     description: "상큼하고 통통 튀는 망고 같은 매력이 있어요! 🥭"
   },
 
@@ -271,6 +298,7 @@ const characters = {
     number: "130",
     emoji: "🍑",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Peachy_Cream",
     description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
   },
 
@@ -280,6 +308,7 @@ const characters = {
     number: "131",
     emoji: "🍋",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Lisa_Lemon",
     description: "상큼하고 귀여운 레몬 같은 매력이 있어요! 🍋"
   },
   
@@ -289,6 +318,7 @@ const characters = {
     number: "001",
     emoji: "🥞",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Maple_Cakes",
     description: "달콤하고 포근한 메이플 팬케이크 같은 매력이 있어요! 🥞"
   },
 
@@ -298,6 +328,7 @@ const characters = {
     number: "002",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Cakes",
     description: "달콤한 베리와 케이크가 어울리는 사랑스러운 매력이에요! 💕"
   },
 
@@ -307,7 +338,8 @@ const characters = {
     number: "003",
     emoji: "🧇",
     image: "",
-    description: "폭신폭신한 와플처럼 귀여운 매력이 있어요! 🧇"
+   link: "https://num-noms.fandom.com/wiki/Willy_Waffles",
+   description: "폭신폭신한 와플처럼 귀여운 매력이 있어요! 🧇"
   },
 
   "2-4": {
@@ -316,6 +348,7 @@ const characters = {
     number: "004",
     emoji: "🍩",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cindy_Cinnamon",
     description: "따뜻한 시나몬처럼 달콤하고 포근해요! 🤎"
   },
 
@@ -325,6 +358,7 @@ const characters = {
     number: "005",
     emoji: "🍳",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Sunny_Omelette",
     description: "햇살처럼 밝고 통통 튀는 매력이 있어요! ☀️"
   },
 
@@ -334,6 +368,7 @@ const characters = {
     number: "006",
     emoji: "🥓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Becca_Bacon",
     description: "맛있는 베이컨처럼 톡톡 튀는 매력이 있어요! 🥓"
   },
 
@@ -343,6 +378,7 @@ const characters = {
     number: "007",
     emoji: "🍓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Strawberry_Froyo",
     description: "상큼달콤한 딸기 프로즌요거트 같은 매력이에요! 🍓"
   },
 
@@ -352,6 +388,7 @@ const characters = {
     number: "008",
     emoji: "🍦",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nilla_Froyo",
     description: "부드러운 바닐라 프로즌요거트처럼 포근해요! 🍦"
   },
 
@@ -361,6 +398,7 @@ const characters = {
     number: "009",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Froyo",
     description: "상큼한 베리 프로즌요거트 같은 매력이 있어요! 💜"
   },
 
@@ -370,6 +408,7 @@ const characters = {
     number: "010",
     emoji: "🧇",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Waffles",
     description: "베리와 와플처럼 달콤하고 사랑스러워요! 🫐"
   },
 
@@ -379,6 +418,7 @@ const characters = {
     number: "011",
     emoji: "🍕",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Peppy_Roni",
     description: "통통 튀는 페퍼로니 피자 같은 매력이 있어요! 🍕"
   },
 
@@ -388,6 +428,7 @@ const characters = {
     number: "012",
     emoji: "🍍",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Pi%C3%B1a_Aloha",
     description: "상큼한 파인애플처럼 신나는 매력이 있어요! 🍍"
   },
 
@@ -397,6 +438,7 @@ const characters = {
     number: "013",
     emoji: "🥦",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Veggie_Terry",
     description: "싱그럽고 발랄한 베지테리언 느낌의 매력이 있어요! 🥦"
   },
 
@@ -406,6 +448,7 @@ const characters = {
     number: "014",
     emoji: "🧀",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Mozza_Rella",
     description: "쭉쭉 늘어나는 모짜렐라처럼 귀여운 매력이 있어요! 🧀"
   },
 
@@ -415,6 +458,7 @@ const characters = {
     number: "015",
     emoji: "🍫",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Sammy_S'mores",
     description: "달콤하고 포근한 스모어 같은 매력이 가득해요! 🤎"
   },
 
@@ -424,6 +468,7 @@ const characters = {
     number: "016",
     emoji: "🍕",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Margo_Rita",
     description: "피자처럼 유쾌하고 발랄한 매력이 있어요! 🍕"
   },
 
@@ -433,7 +478,8 @@ const characters = {
     number: "017",
     emoji: "🥚",
     image: "",
-    description: "귀엽고 동글동글한 타마고 같은 매력이 있어요! 🥚"
+    link: "https://num-noms.fandom.com/wiki/Eggbert_Tamago",
+    description: "귀엽고 동글동글한 달걀 같은 매력이 있어요! 🥚"
   },
 
   "2-18": {
@@ -442,6 +488,7 @@ const characters = {
     number: "018",
     emoji: "🍣",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Tori_Toro",
     description: "깔끔하고 귀여운 스시 같은 매력이 있어요! 🍣"
   },
 
@@ -451,6 +498,7 @@ const characters = {
     number: "019",
     emoji: "🍣",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Ina_Ree",
     description: "사랑스럽고 통통 튀는 스시 매력이 있어요! 🍣"
   },
 
@@ -460,6 +508,7 @@ const characters = {
     number: "020",
     emoji: "🍣",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cali_Roll",
     description: "알록달록 캘리포니아 롤처럼 매력적이에요! 💕"
   },
 
@@ -469,6 +518,7 @@ const characters = {
     number: "021",
     emoji: "🍣",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Phili_Roll",
     description: "부드럽고 고소한 롤 같은 매력이 있어요! ✨"
   },
 
@@ -478,6 +528,7 @@ const characters = {
     number: "022",
     emoji: "🍤",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Ama_Ebi",
     description: "달콤하고 귀여운 새우 같은 매력이 있어요! 🍤"
   },
 
@@ -487,6 +538,7 @@ const characters = {
     number: "023",
     emoji: "🍣",
     image: "",
+   link: "https://num-noms.fandom.com/wiki/Suki_Sake",
     description: "통통 튀는 스시 같은 사랑스러운 매력이 있어요! 💗"
   },
 
@@ -496,6 +548,7 @@ const characters = {
     number: "024",
     emoji: "🍙",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Oni_Giri",
     description: "동글동글 귀여운 오니기리 같은 매력이 있어요! 🍙"
   },
 
@@ -505,6 +558,7 @@ const characters = {
     number: "025",
     emoji: "🥑",
     image: "",
+   link: "https://num-noms.fandom.com/wiki/Ami_Avocado",
     description: "부드럽고 싱그러운 아보카도 같은 매력이 있어요! 🥑"
   },
 
@@ -514,6 +568,7 @@ const characters = {
     number: "026",
     emoji: "🍣",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Shin_Shiro",
     description: "깔끔하고 귀여운 스시 같은 매력이 있어요! ✨"
   },
 
@@ -523,6 +578,7 @@ const characters = {
     number: "027",
     emoji: "🍔",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Hammy_Burger",
     description: "통통하고 맛있는 햄버거 같은 매력이 있어요! 🍔"
   },
 
@@ -532,6 +588,7 @@ const characters = {
     number: "028",
     emoji: "🍔",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Melty_Burger",
     description: "치즈처럼 부드럽고 달콤한 햄버거 매력이 있어요! 🧀"
   },
 
@@ -541,6 +598,7 @@ const characters = {
     number: "029",
     emoji: "🌭",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Haley_Hot_Dog",
     description: "통통 튀는 핫도그처럼 발랄한 매력이 있어요! 🌭"
   },
 
@@ -550,6 +608,7 @@ const characters = {
     number: "030",
     emoji: "🍟",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Frenchie_Fries",
     description: "바삭바삭하고 귀여운 프렌치프라이 같은 매력이에요! 🍟"
   },
 
@@ -559,6 +618,7 @@ const characters = {
     number: "031",
     emoji: "🍟",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Frenchie_Curls",
     description: "동글동글 귀엽고 바삭한 매력이 있어요! ✨"
   },
 
@@ -568,6 +628,7 @@ const characters = {
     number: "032",
     emoji: "🥤",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cassie_Cola",
     description: "톡 쏘는 콜라처럼 상큼하고 발랄해요! 🥤"
   },
 
@@ -577,6 +638,7 @@ const characters = {
     number: "033",
     emoji: "🍋",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Lemony_Cola",
     description: "레몬처럼 상큼하고 톡톡 튀는 매력이 있어요! 🍋"
   },
 
@@ -586,6 +648,7 @@ const characters = {
     number: "034",
     emoji: "🥪",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/P.B.N.J.",
     description: "달콤하고 고소한 샌드위치 같은 매력이 있어요! 🥪"
   },
 
@@ -595,6 +658,7 @@ const characters = {
     number: "035",
     emoji: "🧀",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/C.H.Z.",
     description: "치즈처럼 부드럽고 귀여운 매력이 있어요! 🧀"
   },
 
@@ -604,6 +668,7 @@ const characters = {
     number: "036",
     emoji: "🥪",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/B.L.T.",
     description: "맛있고 통통 튀는 샌드위치 같은 매력이에요! 💕"
   },
 
@@ -613,6 +678,7 @@ const characters = {
     number: "037",
     emoji: "🍬",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Cara_Mellie",
     description: "달콤한 카라멜처럼 포근한 매력이 있어요! 🤎"
   },
 
@@ -622,6 +688,7 @@ const characters = {
     number: "038",
     emoji: "🍎",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Annie_Apple",
     description: "사과처럼 상큼하고 발랄한 매력이 있어요! 🍎"
   },
 
@@ -631,6 +698,7 @@ const characters = {
     number: "039",
     emoji: "🩷",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Pinky_Puffs",
     description: "폭신폭신하고 사랑스러운 매력이 가득해요! 🩷"
   },
 
@@ -640,6 +708,7 @@ const characters = {
     number: "040",
     emoji: "🍬",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Sugar_Puffs",
     description: "달콤하고 폭신한 설탕 과자 같은 매력이에요! ✨"
   },
 
@@ -649,6 +718,7 @@ const characters = {
     number: "041",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Puffs",
     description: "상큼달콤한 베리처럼 사랑스러워요! 💜"
   },
 
@@ -658,6 +728,7 @@ const characters = {
     number: "042",
     emoji: "🍿",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Papa_Corn",
     description: "팝콘처럼 통통 튀는 재미있는 매력이 있어요! 🍿"
   },
 
@@ -667,6 +738,7 @@ const characters = {
     number: "043",
     emoji: "🍿",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Momma_Corn",
     description: "고소하고 귀여운 팝콘 같은 매력이 있어요! 🍿"
   },
 
@@ -676,6 +748,7 @@ const characters = {
     number: "044",
     emoji: "🍿",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nana_Puffs",
     description: "폭신하고 달콤한 매력이 가득해요! 🎀"
   },
 
@@ -685,6 +758,7 @@ const characters = {
     number: "045",
     emoji: "🍭",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Mellie_Pop",
     description: "달콤하고 알록달록한 팝 같은 매력이 있어요! 🍭"
   },
 
@@ -694,6 +768,7 @@ const characters = {
     number: "046",
     emoji: "🍓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Strawberry_Pop",
     description: "딸기처럼 상큼달콤한 매력이 있어요! 🍓"
   },
 
@@ -703,6 +778,7 @@ const characters = {
     number: "047",
     emoji: "🍦",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Creamy_Pop",
     description: "부드럽고 달콤한 크림 같은 매력이에요! 🍦"
   },
 
@@ -712,6 +788,7 @@ const characters = {
     number: "048",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Wild_Berry_Freezie",
     description: "상큼한 와일드베리처럼 톡톡 튀어요! 💜"
   },
 
@@ -721,6 +798,7 @@ const characters = {
     number: "049",
     emoji: "🍍",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Tropi-Cali_Pop",
     description: "열대과일처럼 상큼하고 신나는 매력이 있어요! 🌴"
   },
 
@@ -730,6 +808,7 @@ const characters = {
     number: "050",
     emoji: "🍊",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/OJ_Pop",
     description: "오렌지 주스처럼 상큼하고 밝아요! 🍊"
   },
 
@@ -739,6 +818,7 @@ const characters = {
     number: "051",
     emoji: "🍋",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Lemony_Pop",
     description: "레몬처럼 상큼하고 톡 쏘는 매력이 있어요! 🍋"
   },
 
@@ -748,6 +828,7 @@ const characters = {
     number: "052",
     emoji: "🍌",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nana_Pop",
     description: "달콤한 바나나 같은 귀여운 매력이 있어요! 🍌"
   },
 
@@ -757,6 +838,7 @@ const characters = {
     number: "053",
     emoji: "🥝",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Kiwi_Freezie",
     description: "키위처럼 상큼하고 싱그러운 매력이에요! 🥝"
   },
 
@@ -766,6 +848,7 @@ const characters = {
     number: "054",
     emoji: "🍇",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Grape_Soda_Pop",
     description: "달콤한 포도 소다처럼 톡톡 튀어요! 🍇"
   },
 
@@ -775,6 +858,7 @@ const characters = {
     number: "055",
     emoji: "🍑",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Parker_Peach",
     description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
   },
 
@@ -784,6 +868,7 @@ const characters = {
     number: "056",
     emoji: "🍌",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Nana_Splits",
     description: "바나나처럼 달콤하고 귀여운 매력이 있어요! 🍌"
   },
 
@@ -793,6 +878,7 @@ const characters = {
     number: "057",
     emoji: "🍓",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Sara_Strawberry",
     description: "상큼달콤한 딸기처럼 사랑스러워요! 🍓"
   },
 
@@ -802,6 +888,7 @@ const characters = {
     number: "058",
     emoji: "🫐",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Berry_Twirl",
     description: "베리처럼 새콤달콤하고 빙글빙글 귀여워요! 💜"
   },
 
@@ -811,6 +898,7 @@ const characters = {
     number: "059",
     emoji: "🌿",
     image: "",
+    link: "https://num-noms.fandom.com/wiki/Mint_Twirl",
     description: "시원한 민트처럼 상쾌한 매력이 있어요! 💚"
   },
 
