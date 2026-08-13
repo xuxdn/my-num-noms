@@ -1,15 +1,15 @@
 const characters = {
 
-  "1-1": {
-    name: "Nilla Cream",
-    series: "Series 1",
-    number: "101",
-    emoji: "🍦",
-    image: "",
-    link: "https://num-noms.fandom.com/wiki/Nilla_Cream",
-    description: "부드럽고 달콤한 매력의 Num Noms예요! ♡"
-  },
-
+ "1-1": {
+  name: "Nilla Cream",
+  series: "Series 1",
+  number: "101",
+  emoji: "🍦",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Nilla_Cream",
+  description: "부드럽고 달콤한 매력의 Num Noms예요! ♡"
+},
+  
   "1-2": {
     name: "Nilla Swirl",
     series: "Series 1",
