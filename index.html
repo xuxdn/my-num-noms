@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -531,6 +530,13 @@
 
 
       <div
+        class="character-info"
+        id="characterInfo"
+      >
+      </div>
+
+
+      <div
         class="date-text"
         id="dateText"
       >
@@ -760,6 +766,9 @@ function findCharacter() {
 
     document.getElementById("characterName").textContent =
       character.name;
+
+    document.getElementById("characterInfo").textContent =
+  character.series + " · No. " + character.number;
 
     document.getElementById("description").textContent =
       character.description;
