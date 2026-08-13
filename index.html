@@ -520,6 +520,12 @@
         🍓
       </div>
 
+      <img
+        id="characterImage"
+        class="character-image"
+        src=""
+        alt=""
+      >
 
       <div
         class="character-name"
@@ -681,6 +687,17 @@ function findCharacter() {
 
     document.getElementById("characterName").textContent =
       character.name;
+
+    const characterImage =
+      document.getElementById("characterImage");
+
+    if (character.image) {
+      characterImage.src = character.image;
+      characterImage.alt = character.name;
+      characterImage.style.display = "block";
+    } else {
+      characterImage.style.display = "none";
+    }
 
     document.getElementById("characterInfo").textContent =
   character.series + " · No. " + character.number;
