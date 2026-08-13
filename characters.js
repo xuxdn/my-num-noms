@@ -903,1381 +903,1534 @@ const characters = {
   },
 
     "4-1": {
-    name: "Cherry Scoop",
-    series: "Series 2",
-    number: "060",
-    emoji: "🍒",
-    image: "",
-    description: "상큼한 체리처럼 달콤하고 사랑스러운 매력이 있어요! 🍒"
-  },
+  name: "Cherry Scoop",
+  series: "Series 2",
+  number: "060",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Scoop",
+  description: "상큼한 체리처럼 달콤하고 사랑스러운 매력이 있어요! 🍒"
+},
 
-  "4-2": {
-    name: "Pepper Minty Shine",
-    series: "Series 2",
-    number: "061",
-    emoji: "🌿",
-    image: "",
-    description: "시원하고 상쾌한 민트 같은 매력이 있어요! 💚"
-  },
+"4-2": {
+  name: "Pepper Minty Shine",
+  series: "Series 2",
+  number: "061",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Pepper_Minty_Shine",
+  description: "시원하고 상쾌한 민트 같은 매력이 있어요! 💚"
+},
 
-  "4-3": {
-    name: "Pumpkin Spice",
-    series: "Series 2",
-    number: "062",
-    emoji: "🎃",
-    image: "",
-    description: "따뜻하고 달콤한 호박 스파이스 같은 매력이 있어요! 🎃"
-  },
+"4-3": {
+  name: "Pumpkin Spice",
+  series: "Series 2",
+  number: "062",
+  emoji: "🎃",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Pumpkin_Spice",
+  description: "따뜻하고 달콤한 호박 스파이스 같은 매력이 있어요! 🎃"
+},
 
-  "4-4": {
-    name: "Nana Swirl",
-    series: "Series 2",
-    number: "063",
-    emoji: "🍌",
-    image: "",
-    description: "바나나처럼 달콤하고 부드러운 매력이 있어요! 🍌"
-  },
+"4-4": {
+  name: "Nana Swirl",
+  series: "Series 2",
+  number: "063",
+  emoji: "🍌",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Nana_Swirl",
+  description: "바나나처럼 달콤하고 부드러운 매력이 있어요! 🍌"
+},
 
-  "4-5": {
-    name: "Berry Cheesecake",
-    series: "Series 2",
-    number: "064",
-    emoji: "🫐",
-    image: "",
-    description: "새콤달콤한 베리 치즈케이크 같은 매력이에요! 💕"
-  },
+"4-5": {
+  name: "Berry Cheesecake",
+  series: "Series 2",
+  number: "064",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berry_Cheesecake",
+  description: "새콤달콤한 베리 치즈케이크 같은 매력이에요! 💕"
+},
 
-  "4-6": {
-    name: "M. Mallow",
-    series: "Series 2",
-    number: "065",
-    emoji: "☁️",
-    image: "",
-    description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
-  },
+"4-6": {
+  name: "M. Mallow",
+  series: "Series 2",
+  number: "065",
+  emoji: "☁️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/M._Mallow",
+  description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
+},
 
-  "4-7": {
-    name: "Mint Berry",
-    series: "Series 2",
-    number: "066",
-    emoji: "🫐",
-    image: "",
-    description: "상쾌한 민트와 달콤한 베리 같은 매력이 있어요! 💚"
-  },
+"4-7": {
+  name: "Mint Berry",
+  series: "Series 2",
+  number: "066",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mint_Berry",
+  description: "상쾌한 민트와 달콤한 베리 같은 매력이 있어요! 💚"
+},
 
-  "4-8": {
-    name: "Cherry Cheesecake",
-    series: "Series 2",
-    number: "067",
-    emoji: "🍒",
-    image: "",
-    description: "체리처럼 상큼하고 달콤한 매력이 있어요! 🍒"
-  },
+"4-8": {
+  name: "Cherry Cheesecake",
+  series: "Series 2",
+  number: "067",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Cheesecake",
+  description: "체리처럼 상큼하고 달콤한 매력이 있어요! 🍒"
+},
 
-  "4-9": {
-    name: "Strawberry Cream",
-    series: "Series 2",
-    number: "068",
-    emoji: "🍓",
-    image: "",
-    description: "딸기와 크림처럼 부드럽고 달콤해요! 🍓"
-  },
+"4-9": {
+  name: "Strawberry Cream",
+  series: "Series 2",
+  number: "068",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Strawberry_Cream",
+  description: "딸기와 크림처럼 부드럽고 달콤해요! 🍓"
+},
 
-  "4-10": {
-    name: "Choco Swirl",
-    series: "Series 2",
-    number: "069",
-    emoji: "🍫",
-    image: "",
-    description: "달콤한 초콜릿 스월 같은 매력이 있어요! 🍫"
-  },
+"4-10": {
+  name: "Choco Swirl",
+  series: "Series 2",
+  number: "069",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Choco_Swirl",
+  description: "달콤한 초콜릿 스월 같은 매력이 있어요! 🍫"
+},
 
-  "4-11": {
-    name: "Sugar Berry",
-    series: "Series 2",
-    number: "070",
-    emoji: "🫐",
-    image: "",
-    description: "설탕처럼 달콤한 베리의 매력이 가득해요! 💕"
-  },
+"4-11": {
+  name: "Sugar Berry",
+  series: "Series 2",
+  number: "070",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sugar_Berry",
+  description: "설탕처럼 달콤한 베리의 매력이 가득해요! 💕"
+},
 
-  "4-12": {
-    name: "Caramelly Shine",
-    series: "Series 2",
-    number: "071",
-    emoji: "🍮",
-    image: "",
-    description: "반짝반짝 달콤한 카라멜 같은 매력이 있어요! ✨"
-  },
+"4-12": {
+  name: "Caramelly Shine",
+  series: "Series 2",
+  number: "071",
+  emoji: "🍮",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Caramelly_Shine",
+  description: "반짝반짝 달콤한 카라멜 같은 매력이 있어요! ✨"
+},
 
-  "4-13": {
-    name: "Piña Jelly",
-    series: "Series 2",
-    number: "072",
-    emoji: "🍍",
-    image: "",
-    description: "상큼한 파인애플 젤리처럼 귀여워요! 🍍"
-  },
+"4-13": {
+  name: "Piña Jelly",
+  series: "Series 2",
+  number: "072",
+  emoji: "🍍",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Piña_Jelly",
+  description: "상큼한 파인애플 젤리처럼 귀여워요! 🍍"
+},
 
-  "4-14": {
-    name: "Kiwi Jelly",
-    series: "Series 2",
-    number: "073",
-    emoji: "🥝",
-    image: "",
-    description: "키위처럼 싱그럽고 상큼한 매력이 있어요! 🥝"
-  },
+"4-14": {
+  name: "Kiwi Jelly",
+  series: "Series 2",
+  number: "073",
+  emoji: "🥝",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Kiwi_Jelly",
+  description: "키위처럼 싱그럽고 상큼한 매력이 있어요! 🥝"
+},
 
-  "4-15": {
-    name: "Orange Jelly",
-    series: "Series 2",
-    number: "074",
-    emoji: "🍊",
-    image: "",
-    description: "오렌지처럼 밝고 상큼한 매력이 있어요! 🍊"
-  },
+"4-15": {
+  name: "Orange Jelly",
+  series: "Series 2",
+  number: "074",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Orange_Jelly",
+  description: "오렌지처럼 밝고 상큼한 매력이 있어요! 🍊"
+},
 
-  "4-16": {
-    name: "Cream Berry Jelly",
-    series: "Series 2",
-    number: "075",
-    emoji: "🫐",
-    image: "",
-    description: "크리미하고 달콤한 베리 젤리 같은 매력이에요! 💜"
-  },
+"4-16": {
+  name: "Cream Berry Jelly",
+  series: "Series 2",
+  number: "075",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cream_Berry_Jelly",
+  description: "크리미하고 달콤한 베리 젤리 같은 매력이에요! 💜"
+},
 
-  "4-17": {
-    name: "Raspberry Jelly",
-    series: "Series 2",
-    number: "076",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤한 라즈베리 젤리 같은 매력이 있어요! 🍓"
-  },
+"4-17": {
+  name: "Raspberry Jelly",
+  series: "Series 2",
+  number: "076",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Raspberry_Jelly",
+  description: "새콤달콤한 라즈베리 젤리 같은 매력이 있어요! 🍓"
+},
 
-  "4-18": {
-    name: "Blueberry Jelly",
-    series: "Series 2",
-    number: "077",
-    emoji: "🫐",
-    image: "",
-    description: "상큼한 블루베리 젤리처럼 사랑스러워요! 💙"
-  },
+"4-18": {
+  name: "Blueberry Jelly",
+  series: "Series 2",
+  number: "077",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Blueberry_Jelly",
+  description: "상큼한 블루베리 젤리처럼 사랑스러워요! 💙"
+},
 
-  "4-19": {
-    name: "Grape Jelly",
-    series: "Series 2",
-    number: "078",
-    emoji: "🍇",
-    image: "",
-    description: "달콤한 포도 젤리 같은 매력이 있어요! 🍇"
-  },
+"4-19": {
+  name: "Grape Jelly",
+  series: "Series 2",
+  number: "078",
+  emoji: "🍇",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Grape_Jelly",
+  description: "달콤한 포도 젤리 같은 매력이 있어요! 🍇"
+},
 
-  "4-20": {
-    name: "Bubbly Jelly",
-    series: "Series 2",
-    number: "079",
-    emoji: "🫧",
-    image: "",
-    description: "톡톡 튀는 버블리 젤리 같은 매력이에요! 🫧"
-  },
+"4-20": {
+  name: "Bubbly Jelly",
+  series: "Series 2",
+  number: "079",
+  emoji: "🫧",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Bubbly_Jelly",
+  description: "톡톡 튀는 버블리 젤리 같은 매력이에요! 🫧"
+},
 
-  "4-21": {
-    name: "Confetti Jelly",
-    series: "Series 2",
-    number: "080",
-    emoji: "🎉",
-    image: "",
-    description: "알록달록 파티처럼 신나는 매력이 있어요! 🎉"
-  },
+"4-21": {
+  name: "Confetti Jelly",
+  series: "Series 2",
+  number: "080",
+  emoji: "🎉",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Confetti_Jelly",
+  description: "알록달록 파티처럼 신나는 매력이 있어요! 🎉"
+},
 
-  "4-22": {
-    name: "Mallow Jelly",
-    series: "Series 2",
-    number: "081",
-    emoji: "☁️",
-    image: "",
-    description: "말랑말랑한 마시멜로처럼 포근해요! ☁️"
-  },
+"4-22": {
+  name: "Mallow Jelly",
+  series: "Series 2",
+  number: "081",
+  emoji: "☁️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mallow_Jelly",
+  description: "말랑말랑한 마시멜로처럼 포근해요! ☁️"
+},
 
-  "4-23": {
-    name: "Lemon Gummy Stamp-It",
-    series: "Series 2",
-    number: "082",
-    emoji: "🍋",
-    image: "",
-    description: "상큼한 레몬 구미처럼 톡톡 튀는 매력이 있어요! 🍋"
-  },
+"4-23": {
+  name: "Lemon Gummy Stamp-It",
+  series: "Series 2",
+  number: "082",
+  emoji: "🍋",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Lemon_Gummy_Stamp-It",
+  description: "상큼한 레몬 구미처럼 톡톡 튀는 매력이 있어요! 🍋"
+},
 
-  "4-24": {
-    name: "B-Day Gummy Stamp-It",
-    series: "Series 2",
-    number: "083",
-    emoji: "🎂",
-    image: "",
-    description: "생일처럼 특별하고 달콤한 매력이 있어요! 🎂"
-  },
+"4-24": {
+  name: "B-Day Gummy Stamp-It",
+  series: "Series 2",
+  number: "083",
+  emoji: "🎂",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/B-Day_Gummy_Stamp-It",
+  description: "생일처럼 특별하고 달콤한 매력이 있어요! 🎂"
+},
 
-  "4-25": {
-    name: "Candy Gummy Stamp-It",
-    series: "Series 2",
-    number: "084",
-    emoji: "🍬",
-    image: "",
-    description: "알록달록 캔디처럼 달콤하고 귀여워요! 🍬"
-  },
+"4-25": {
+  name: "Candy Gummy Stamp-It",
+  series: "Series 2",
+  number: "084",
+  emoji: "🍬",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Candy_Gummy_Stamp-It",
+  description: "알록달록 캔디처럼 달콤하고 귀여워요! 🍬"
+},
 
-  "4-26": {
-    name: "Cherry Gummy Stamp-It",
-    series: "Series 2",
-    number: "085",
-    emoji: "🍒",
-    image: "",
-    description: "체리처럼 새콤달콤한 매력이 있어요! 🍒"
-  },
+"4-26": {
+  name: "Cherry Gummy Stamp-It",
+  series: "Series 2",
+  number: "085",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Gummy_Stamp-It",
+  description: "체리처럼 새콤달콤한 매력이 있어요! 🍒"
+},
 
-  "4-27": {
-    name: "Wild Berry Gummy Stamp-It",
-    series: "Series 2",
-    number: "086",
-    emoji: "🫐",
-    image: "",
-    description: "새콤한 와일드베리 같은 매력이 있어요! 💜"
-  },
+"4-27": {
+  name: "Wild Berry Gummy Stamp-It",
+  series: "Series 2",
+  number: "086",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Wild_Berry_Gummy_Stamp-It",
+  description: "새콤한 와일드베리 같은 매력이 있어요! 💜"
+},
 
-  "4-28": {
-    name: "Mint Gummy Stamp-It",
-    series: "Series 2",
-    number: "087",
-    emoji: "🌿",
-    image: "",
-    description: "상쾌한 민트처럼 시원한 매력이 있어요! 💚"
-  },
+"4-28": {
+  name: "Mint Gummy Stamp-It",
+  series: "Series 2",
+  number: "087",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mint_Gummy_Stamp-It",
+  description: "상쾌한 민트처럼 시원한 매력이 있어요! 💚"
+},
 
-  "4-29": {
-    name: "Caramel Stamp-It",
-    series: "Series 2",
-    number: "088",
-    emoji: "🍮",
-    image: "",
-    description: "달콤하고 부드러운 카라멜 같은 매력이 있어요! 🤎"
-  },
+"4-29": {
+  name: "Caramel Stamp-It",
+  series: "Series 2",
+  number: "088",
+  emoji: "🍮",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Caramel_Stamp-It",
+  description: "달콤하고 부드러운 카라멜 같은 매력이 있어요! 🤎"
+},
 
-  "4-30": {
-    name: "Icy Piña Go-Go",
-    series: "Series 2",
-    number: "089",
-    emoji: "🍍",
-    image: "",
-    description: "시원하고 상큼한 파인애플 같은 매력이 있어요! 🍍"
-  },
+"4-30": {
+  name: "Icy Piña Go-Go",
+  series: "Series 2",
+  number: "089",
+  emoji: "🍍",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Icy_Piña_Go-Go",
+  description: "시원하고 상큼한 파인애플 같은 매력이 있어요! 🍍"
+},
 
     "5-1": {
-    name: "Icy Peach Go-Go",
-    series: "Series 2",
-    number: "090",
-    emoji: "🍑",
-    image: "",
-    description: "시원하고 달콤한 복숭아처럼 사랑스러운 매력이 있어요! 🍑"
-  },
+  name: "Icy Peach Go-Go",
+  series: "Series 2",
+  number: "090",
+  emoji: "🍑",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Icy_Peach_Go-Go",
+  description: "시원하고 달콤한 복숭아처럼 사랑스러운 매력이 있어요! 🍑"
+},
 
-  "5-2": {
-    name: "Icy Berry Go-Go",
-    series: "Series 2",
-    number: "091",
-    emoji: "🫐",
-    image: "",
-    description: "상큼하고 시원한 베리 같은 매력이 있어요! 💙"
-  },
+"5-2": {
+  name: "Icy Berry Go-Go",
+  series: "Series 2",
+  number: "091",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Icy_Berry_Go-Go",
+  description: "상큼하고 시원한 베리 같은 매력이 있어요! 💙"
+},
 
-  "5-3": {
-    name: "Mango Jelly Go-Go",
-    series: "Series 2",
-    number: "092",
-    emoji: "🥭",
-    image: "",
-    description: "달콤한 망고 젤리처럼 통통 튀는 매력이 있어요! 🥭"
-  },
+"5-3": {
+  name: "Mango Jelly Go-Go",
+  series: "Series 2",
+  number: "092",
+  emoji: "🥭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mango_Jelly_Go-Go",
+  description: "달콤한 망고 젤리처럼 통통 튀는 매력이 있어요! 🥭"
+},
 
-  "5-4": {
-    name: "Cherry Jelly Go-Go",
-    series: "Series 2",
-    number: "093",
-    emoji: "🍒",
-    image: "",
-    description: "상큼달콤한 체리 젤리 같은 매력이 있어요! 🍒"
-  },
+"5-4": {
+  name: "Cherry Jelly Go-Go",
+  series: "Series 2",
+  number: "093",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Jelly_Go-Go",
+  description: "상큼달콤한 체리 젤리 같은 매력이 있어요! 🍒"
+},
 
-  "5-5": {
-    name: "Grape Jelly Go-Go",
-    series: "Series 2",
-    number: "094",
-    emoji: "🍇",
-    image: "",
-    description: "달콤한 포도 젤리처럼 귀여운 매력이 있어요! 🍇"
-  },
+"5-5": {
+  name: "Grape Jelly Go-Go",
+  series: "Series 2",
+  number: "094",
+  emoji: "🍇",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Grape_Jelly_Go-Go",
+  description: "달콤한 포도 젤리처럼 귀여운 매력이 있어요! 🍇"
+},
 
-  "5-6": {
-    name: "Jammin' Razzy Go-Go",
-    series: "Series 2",
-    number: "095",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤하고 신나는 라즈베리 매력이 있어요! 💕"
-  },
+"5-6": {
+  name: "Jammin' Razzy Go-Go",
+  series: "Series 2",
+  number: "095",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Jammin'_Razzy_Go-Go",
+  description: "새콤달콤하고 신나는 라즈베리 매력이 있어요! 💕"
+},
 
-  "5-7": {
-    name: "Jammin' Berry Go-Go",
-    series: "Series 2",
-    number: "096",
-    emoji: "🫐",
-    image: "",
-    description: "달콤한 베리처럼 발랄한 매력이 있어요! 💜"
-  },
+"5-7": {
+  name: "Jammin' Berry Go-Go",
+  series: "Series 2",
+  number: "096",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Jammin'_Berry_Go-Go",
+  description: "달콤한 베리처럼 발랄한 매력이 있어요! 💜"
+},
 
-  "5-8": {
-    name: "Buttery Go-Go",
-    series: "Series 2",
-    number: "097",
-    emoji: "🧈",
-    image: "",
-    description: "부드럽고 고소한 버터처럼 포근해요! 🧈"
-  },
+"5-8": {
+  name: "Buttery Go-Go",
+  series: "Series 2",
+  number: "097",
+  emoji: "🧈",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Buttery_Go-Go",
+  description: "부드럽고 고소한 버터처럼 포근해요! 🧈"
+},
 
-  "5-9": {
-    name: "Butterscotch Go-Go",
-    series: "Series 2",
-    number: "098",
-    emoji: "🍬",
-    image: "",
-    description: "달콤하고 진한 버터스카치 같은 매력이 있어요! 🤎"
-  },
+"5-9": {
+  name: "Butterscotch Go-Go",
+  series: "Series 2",
+  number: "098",
+  emoji: "🍬",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Butterscotch_Go-Go",
+  description: "달콤하고 진한 버터스카치 같은 매력이 있어요! 🤎"
+},
 
-  "5-10": {
-    name: "Peanut Go-Go",
-    series: "Series 2",
-    number: "099",
-    emoji: "🥜",
-    image: "",
-    description: "고소하고 귀여운 땅콩 같은 매력이 있어요! 🥜"
-  },
+"5-10": {
+  name: "Peanut Go-Go",
+  series: "Series 2",
+  number: "099",
+  emoji: "🥜",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Peanut_Go-Go",
+  description: "고소하고 귀여운 땅콩 같은 매력이 있어요! 🥜"
+},
 
-  "5-11": {
-    name: "Ketchup Go-Go",
-    series: "Series 2",
-    number: "100",
-    emoji: "🍅",
-    image: "",
-    description: "톡톡 튀고 발랄한 케첩 같은 매력이 있어요! 🍅"
-  },
+"5-11": {
+  name: "Ketchup Go-Go",
+  series: "Series 2",
+  number: "100",
+  emoji: "🍅",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Ketchup_Go-Go",
+  description: "톡톡 튀고 발랄한 케첩 같은 매력이 있어요! 🍅"
+},
 
-  "5-12": {
-    name: "Cheesy Go-Go",
-    series: "Series 2",
-    number: "101",
-    emoji: "🧀",
-    image: "",
-    description: "치즈처럼 부드럽고 사랑스러운 매력이 있어요! 🧀"
-  },
+"5-12": {
+  name: "Cheesy Go-Go",
+  series: "Series 2",
+  number: "101",
+  emoji: "🧀",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cheesy_Go-Go",
+  description: "치즈처럼 부드럽고 사랑스러운 매력이 있어요! 🧀"
+},
 
-  "5-13": {
-    name: "Chili Go-Go",
-    series: "Series 2",
-    number: "102",
-    emoji: "🌶️",
-    image: "",
-    description: "살짝 매콤하고 톡톡 튀는 매력이 있어요! 🌶️"
-  },
+"5-13": {
+  name: "Chili Go-Go",
+  series: "Series 2",
+  number: "102",
+  emoji: "🌶️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Chili_Go-Go",
+  description: "살짝 매콤하고 톡톡 튀는 매력이 있어요! 🌶️"
+},
 
-  "5-14": {
-    name: "Pickly Go-Go",
-    series: "Series 2",
-    number: "103",
-    emoji: "🥒",
-    image: "",
-    description: "새콤하고 아삭한 피클처럼 개성 있어요! 🥒"
-  },
+"5-14": {
+  name: "Pickly Go-Go",
+  series: "Series 2",
+  number: "103",
+  emoji: "🥒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Pickly_Go-Go",
+  description: "새콤하고 아삭한 피클처럼 개성 있어요! 🥒"
+},
 
-  "5-15": {
-    name: "Wasabi Go-Go",
-    series: "Series 2",
-    number: "104",
-    emoji: "🌿",
-    image: "",
-    description: "톡 쏘는 와사비처럼 강렬한 매력이 있어요! 💚"
-  },
+"5-15": {
+  name: "Wasabi Go-Go",
+  series: "Series 2",
+  number: "104",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Wasabi_Go-Go",
+  description: "톡 쏘는 와사비처럼 강렬한 매력이 있어요! 💚"
+},
 
-  "5-16": {
-    name: "Gingerbread Go-Go",
-    series: "Series 2",
-    number: "105",
-    emoji: "🍪",
-    image: "",
-    description: "따뜻하고 달콤한 진저브레드 같은 매력이 있어요! 🤎"
-  },
+"5-16": {
+  name: "Gingerbread Go-Go",
+  series: "Series 2",
+  number: "105",
+  emoji: "🍪",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Gingerbread_Go-Go",
+  description: "따뜻하고 달콤한 진저브레드 같은 매력이 있어요! 🤎"
+},
 
-  "5-17": {
-    name: "Glittery Berry Go-Go",
-    series: "Series 2",
-    number: "106",
-    emoji: "🫐",
-    image: "",
-    description: "반짝반짝 달콤한 베리처럼 특별해요! ✨"
-  },
+"5-17": {
+  name: "Glittery Berry Go-Go",
+  series: "Series 2",
+  number: "106",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Glittery_Berry_Go-Go",
+  description: "반짝반짝 달콤한 베리처럼 특별해요! ✨"
+},
 
-  "5-18": {
-    name: "Cotton Candy Gloss-Up",
-    series: "Series 2",
-    number: "107",
-    emoji: "🍭",
-    image: "",
-    description: "솜사탕처럼 폭신하고 달콤한 매력이 있어요! 🩷"
-  },
+"5-18": {
+  name: "Cotton Candy Gloss-Up",
+  series: "Series 2",
+  number: "107",
+  emoji: "🍭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cotton_Candy_Gloss-Up",
+  description: "솜사탕처럼 폭신하고 달콤한 매력이 있어요! 🩷"
+},
 
-  "5-19": {
-    name: "Bubbly Gloss-Up",
-    series: "Series 2",
-    number: "108",
-    emoji: "🫧",
-    image: "",
-    description: "톡톡 터지는 버블처럼 발랄한 매력이 있어요! 🫧"
-  },
+"5-19": {
+  name: "Bubbly Gloss-Up",
+  series: "Series 2",
+  number: "108",
+  emoji: "🫧",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Bubbly_Gloss-Up",
+  description: "톡톡 터지는 버블처럼 발랄한 매력이 있어요! 🫧"
+},
 
-  "5-20": {
-    name: "Berrylicious Gloss-Up",
-    series: "Series 2",
-    number: "109",
-    emoji: "🫐",
-    image: "",
-    description: "새콤달콤한 베리처럼 사랑스러운 매력이 있어요! 💜"
-  },
+"5-20": {
+  name: "Berrylicious Gloss-Up",
+  series: "Series 2",
+  number: "109",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berrylicious_Gloss-Up",
+  description: "새콤달콤한 베리처럼 사랑스러운 매력이 있어요! 💜"
+},
 
-  "5-21": {
-    name: "Cucumber Gloss-Up",
-    series: "Series 2",
-    number: "110",
-    emoji: "🥒",
-    image: "",
-    description: "싱그럽고 시원한 오이처럼 상쾌해요! 💚"
-  },
+"5-21": {
+  name: "Cucumber Gloss-Up",
+  series: "Series 2",
+  number: "110",
+  emoji: "🥒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cucumber_Gloss-Up",
+  description: "싱그럽고 시원한 오이처럼 상쾌해요! 💚"
+},
 
-  "5-22": {
-    name: "S'mores Gloss-Up",
-    series: "Series 2",
-    number: "111",
-    emoji: "🍫",
-    image: "",
-    description: "달콤하고 포근한 스모어 같은 매력이 있어요! 🤎"
-  },
+"5-22": {
+  name: "S'mores Gloss-Up",
+  series: "Series 2",
+  number: "111",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/S'mores_Gloss-Up",
+  description: "달콤하고 포근한 스모어 같은 매력이 있어요! 🤎"
+},
 
-  "5-23": {
-    name: "Cola Gloss-Up",
-    series: "Series 2",
-    number: "112",
-    emoji: "🥤",
-    image: "",
-    description: "톡 쏘는 콜라처럼 통통 튀는 매력이 있어요! 🥤"
-  },
+"5-23": {
+  name: "Cola Gloss-Up",
+  series: "Series 2",
+  number: "112",
+  emoji: "🥤",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cola_Gloss-Up",
+  description: "톡 쏘는 콜라처럼 통통 튀는 매력이 있어요! 🥤"
+},
 
-  "5-24": {
-    name: "Nilla Gloss-Up",
-    series: "Series 2",
-    number: "113",
-    emoji: "🍦",
-    image: "",
-    description: "부드럽고 달콤한 바닐라 같은 매력이 있어요! 🍦"
-  },
+"5-24": {
+  name: "Nilla Gloss-Up",
+  series: "Series 2",
+  number: "113",
+  emoji: "🍦",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Nilla_Gloss-Up",
+  description: "부드럽고 달콤한 바닐라 같은 매력이 있어요! 🍦"
+},
 
-  "5-25": {
-    name: "Berry Gloss-Up",
-    series: "Series 2",
-    number: "114",
-    emoji: "🫐",
-    image: "",
-    description: "달콤한 베리처럼 사랑스러운 매력이 있어요! 💕"
-  },
+"5-25": {
+  name: "Berry Gloss-Up",
+  series: "Series 2",
+  number: "114",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berry_Gloss-Up",
+  description: "달콤한 베리처럼 사랑스러운 매력이 있어요! 💕"
+},
 
-  "5-26": {
-    name: "Cherry Gloss-Up",
-    series: "Series 2",
-    number: "115",
-    emoji: "🍒",
-    image: "",
-    description: "상큼달콤한 체리처럼 귀여운 매력이 있어요! 🍒"
-  },
+"5-26": {
+  name: "Cherry Gloss-Up",
+  series: "Series 2",
+  number: "115",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Gloss-Up",
+  description: "상큼달콤한 체리처럼 귀여운 매력이 있어요! 🍒"
+},
 
-  "5-27": {
-    name: "Cotton Candy Eraser",
-    series: "Series 2",
-    number: "116",
-    emoji: "🍭",
-    image: "",
-    description: "솜사탕처럼 폭신폭신하고 달콤한 매력이에요! 🩷"
-  },
+"5-27": {
+  name: "Cotton Candy Eraser",
+  series: "Series 2",
+  number: "116",
+  emoji: "🍭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cotton_Candy_Eraser",
+  description: "솜사탕처럼 폭신폭신하고 달콤한 매력이에요! 🩷"
+},
 
-  "5-28": {
-    name: "Pip, Pup, & Pop Corn Eraser",
-    series: "Series 2",
-    number: "117",
-    emoji: "🍿",
-    image: "",
-    description: "팝콘처럼 통통 튀는 귀여운 매력이 있어요! 🍿"
-  },
+"5-28": {
+  name: "Pip, Pup, & Pop Corn Eraser",
+  series: "Series 2",
+  number: "117",
+  emoji: "🍿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Pip,_Pup,_&_Pop_Corn_Eraser",
+  description: "팝콘처럼 통통 튀는 귀여운 매력이 있어요! 🍿"
+},
 
-  "5-29": {
-    name: "B.B. Scoops",
-    series: "Series 2",
-    number: "118",
-    emoji: "🍨",
-    image: "",
-    description: "달콤하고 부드러운 아이스크림 같은 매력이 있어요! 🍨"
-  },
+"5-29": {
+  name: "B.B. Scoops",
+  series: "Series 2",
+  number: "118",
+  emoji: "🍨",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/B.B._Scoops",
+  description: "달콤하고 부드러운 아이스크림 같은 매력이 있어요! 🍨"
+},
 
-  "5-30": {
-    name: "Mint T. Cream",
-    series: "Series 2",
-    number: "119",
-    emoji: "🌿",
-    image: "",
-    description: "시원하고 부드러운 민트 크림 같은 매력이 있어요! 💚"
-  },
+"5-30": {
+  name: "Mint T. Cream",
+  series: "Series 2",
+  number: "119",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mint_T._Cream",
+  description: "시원하고 부드러운 민트 크림 같은 매력이 있어요! 💚"
+},
 
-  "5-31": {
-    name: "Mara Schino",
-    series: "Series 2",
-    number: "120",
-    emoji: "🍒",
-    image: "",
-    description: "체리처럼 상큼하고 특별한 매력이 있어요! 🍒"
-  },
+"5-31": {
+  name: "Mara Schino",
+  series: "Series 2",
+  number: "120",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mara_Schino",
+  description: "체리처럼 상큼하고 특별한 매력이 있어요! 🍒"
+},
 
     "6-1": {
-    name: "Cory Custard",
-    series: "Series 3",
-    number: "001",
-    emoji: "🍩",
-    image: "",
-    description: "부드럽고 달콤한 커스터드처럼 사랑스러운 매력이 있어요! 🍩"
-  },
+  name: "Cory Custard",
+  series: "Series 3",
+  number: "001",
+  emoji: "🍩",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cory_Custard",
+  description: "부드럽고 달콤한 커스터드처럼 사랑스러운 매력이 있어요! 🍩"
+},
 
-  "6-2": {
-    name: "Cherry Ann",
-    series: "Series 3",
-    number: "002",
-    emoji: "🍒",
-    image: "",
-    description: "상큼달콤한 체리처럼 귀여운 매력이 있어요! 🍒"
-  },
+"6-2": {
+  name: "Cherry Ann",
+  series: "Series 3",
+  number: "002",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Ann",
+  description: "상큼달콤한 체리처럼 귀여운 매력이 있어요! 🍒"
+},
 
-  "6-3": {
-    name: "Sophia Strawberry",
-    series: "Series 3",
-    number: "003",
-    emoji: "🍓",
-    image: "",
-    description: "딸기처럼 상큼하고 사랑스러운 매력이 있어요! 🍓"
-  },
+"6-3": {
+  name: "Sophia Strawberry",
+  series: "Series 3",
+  number: "003",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sophia_Strawberry",
+  description: "딸기처럼 상큼하고 사랑스러운 매력이 있어요! 🍓"
+},
 
-  "6-4": {
-    name: "Mac Minty",
-    series: "Series 3",
-    number: "004",
-    emoji: "🌿",
-    image: "",
-    description: "시원하고 상쾌한 민트 같은 매력이 있어요! 💚"
-  },
+"6-4": {
+  name: "Mac Minty",
+  series: "Series 3",
+  number: "004",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mac_Minty",
+  description: "시원하고 상쾌한 민트 같은 매력이 있어요! 💚"
+},
 
-  "6-5": {
-    name: "Wanda Wildberry",
-    series: "Series 3",
-    number: "005",
-    emoji: "🫐",
-    image: "",
-    description: "새콤달콤한 와일드베리 같은 매력이 있어요! 💜"
-  },
+"6-5": {
+  name: "Wanda Wildberry",
+  series: "Series 3",
+  number: "005",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Wanda_Wildberry",
+  description: "새콤달콤한 와일드베리 같은 매력이 있어요! 💜"
+},
 
-  "6-6": {
-    name: "Maple Sugars",
-    series: "Series 3",
-    number: "006",
-    emoji: "🍁",
-    image: "",
-    description: "달콤한 메이플 시럽처럼 포근한 매력이 있어요! 🍁"
-  },
+"6-6": {
+  name: "Maple Sugars",
+  series: "Series 3",
+  number: "006",
+  emoji: "🍁",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Maple_Sugars",
+  description: "달콤한 메이플 시럽처럼 포근한 매력이 있어요! 🍁"
+},
 
-  "6-7": {
-    name: "Orange Glaze",
-    series: "Series 3",
-    number: "007",
-    emoji: "🍊",
-    image: "",
-    description: "상큼한 오렌지 글레이즈처럼 밝은 매력이 있어요! 🍊"
-  },
+"6-7": {
+  name: "Orange Glaze",
+  series: "Series 3",
+  number: "007",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Orange_Glaze",
+  description: "상큼한 오렌지 글레이즈처럼 밝은 매력이 있어요! 🍊"
+},
 
-  "6-8": {
-    name: "Valerie Vanilla",
-    series: "Series 3",
-    number: "008",
-    emoji: "🍦",
-    image: "",
-    description: "부드럽고 달콤한 바닐라 같은 매력이 있어요! 🍦"
-  },
+"6-8": {
+  name: "Valerie Vanilla",
+  series: "Series 3",
+  number: "008",
+  emoji: "🍦",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Valerie_Vanilla",
+  description: "부드럽고 달콤한 바닐라 같은 매력이 있어요! 🍦"
+},
 
-  "6-9": {
-    name: "Powdered Sugars",
-    series: "Series 3",
-    number: "009",
-    emoji: "🍩",
-    image: "",
-    description: "포근한 슈가파우더처럼 달콤한 매력이 있어요! ✨"
-  },
+"6-9": {
+  name: "Powdered Sugars",
+  series: "Series 3",
+  number: "009",
+  emoji: "🍩",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Powdered_Sugars",
+  description: "포근한 슈가파우더처럼 달콤한 매력이 있어요! ✨"
+},
 
-  "6-10": {
-    name: "Razzi Berry",
-    series: "Series 3",
-    number: "010",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤하고 발랄한 베리 매력이 있어요! 💕"
-  },
+"6-10": {
+  name: "Razzi Berry",
+  series: "Series 3",
+  number: "010",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Razzi_Berry",
+  description: "새콤달콤하고 발랄한 베리 매력이 있어요! 💕"
+},
 
-  "6-11": {
-    name: "Lemony Glaze",
-    series: "Series 3",
-    number: "011",
-    emoji: "🍋",
-    image: "",
-    description: "레몬처럼 상큼하고 톡톡 튀는 매력이 있어요! 🍋"
-  },
+"6-11": {
+  name: "Lemony Glaze",
+  series: "Series 3",
+  number: "011",
+  emoji: "🍋",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Lemony_Glaze",
+  description: "레몬처럼 상큼하고 톡톡 튀는 매력이 있어요! 🍋"
+},
 
-  "6-12": {
-    name: "Choco Sprinkles",
-    series: "Series 3",
-    number: "012",
-    emoji: "🍫",
-    image: "",
-    description: "달콤한 초콜릿 스프링클처럼 귀여워요! 🍫"
-  },
+"6-12": {
+  name: "Choco Sprinkles",
+  series: "Series 3",
+  number: "012",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Choco_Sprinkles",
+  description: "달콤한 초콜릿 스프링클처럼 귀여워요! 🍫"
+},
 
-  "6-13": {
-    name: "Sprinkles Donut",
-    series: "Series 3",
-    number: "013",
-    emoji: "🍩",
-    image: "",
-    description: "알록달록 스프링클처럼 신나는 매력이 있어요! 🌈"
-  },
+"6-13": {
+  name: "Sprinkles Donut",
+  series: "Series 3",
+  number: "013",
+  emoji: "🍩",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sprinkles_Donut",
+  description: "알록달록 스프링클처럼 신나는 매력이 있어요! 🌈"
+},
 
-  "6-14": {
-    name: "Sugary Glaze",
-    series: "Series 3",
-    number: "014",
-    emoji: "🍩",
-    image: "",
-    description: "달콤한 글레이즈처럼 반짝이는 매력이 있어요! ✨"
-  },
+"6-14": {
+  name: "Sugary Glaze",
+  series: "Series 3",
+  number: "014",
+  emoji: "🍩",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sugary_Glaze",
+  description: "달콤한 글레이즈처럼 반짝이는 매력이 있어요! ✨"
+},
 
-  "6-15": {
-    name: "Oscar Orange",
-    series: "Series 3",
-    number: "015",
-    emoji: "🍊",
-    image: "",
-    description: "오렌지처럼 밝고 상큼한 매력이 있어요! 🍊"
-  },
+"6-15": {
+  name: "Oscar Orange",
+  series: "Series 3",
+  number: "015",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Oscar_Orange",
+  description: "오렌지처럼 밝고 상큼한 매력이 있어요! 🍊"
+},
 
-  "6-16": {
-    name: "Zane Zest",
-    series: "Series 3",
-    number: "016",
-    emoji: "🍋",
-    image: "",
-    description: "상큼하고 톡 쏘는 시트러스 같은 매력이 있어요! 🍋"
-  },
+"6-16": {
+  name: "Zane Zest",
+  series: "Series 3",
+  number: "016",
+  emoji: "🍋",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Zane_Zest",
+  description: "상큼하고 톡 쏘는 시트러스 같은 매력이 있어요! 🍋"
+},
 
-  "6-17": {
-    name: "Georgia Peach",
-    series: "Series 3",
-    number: "017",
-    emoji: "🍑",
-    image: "",
-    description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
-  },
+"6-17": {
+  name: "Georgia Peach",
+  series: "Series 3",
+  number: "017",
+  emoji: "🍑",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Georgia_Peach",
+  description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
+},
 
-  "6-18": {
-    name: "Victor Vines",
-    series: "Series 3",
-    number: "018",
-    emoji: "🍇",
-    image: "",
-    description: "포도처럼 달콤하고 싱그러운 매력이 있어요! 🍇"
-  },
+"6-18": {
+  name: "Victor Vines",
+  series: "Series 3",
+  number: "018",
+  emoji: "🍇",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Victor_Vines",
+  description: "포도처럼 달콤하고 싱그러운 매력이 있어요! 🍇"
+},
 
-  "6-19": {
-    name: "Piney Apple",
-    series: "Series 3",
-    number: "019",
-    emoji: "🍍",
-    image: "",
-    description: "파인애플처럼 상큼하고 톡톡 튀는 매력이 있어요! 🍍"
-  },
+"6-19": {
+  name: "Piney Apple",
+  series: "Series 3",
+  number: "019",
+  emoji: "🍍",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Piney_Apple",
+  description: "파인애플처럼 상큼하고 톡톡 튀는 매력이 있어요! 🍍"
+},
 
-  "6-20": {
-    name: "Melony Seeds",
-    series: "Series 3",
-    number: "020",
-    emoji: "🍉",
-    image: "",
-    description: "달콤하고 시원한 멜론 같은 매력이 있어요! 🍉"
-  },
+"6-20": {
+  name: "Melony Seeds",
+  series: "Series 3",
+  number: "020",
+  emoji: "🍉",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Melony_Seeds",
+  description: "달콤하고 시원한 멜론 같은 매력이 있어요! 🍉"
+},
 
-  "6-21": {
-    name: "Becky Banana",
-    series: "Series 3",
-    number: "021",
-    emoji: "🍌",
-    image: "",
-    description: "달콤한 바나나처럼 귀엽고 사랑스러워요! 🍌"
-  },
+"6-21": {
+  name: "Becky Banana",
+  series: "Series 3",
+  number: "021",
+  emoji: "🍌",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Becky_Banana",
+  description: "달콤한 바나나처럼 귀엽고 사랑스러워요! 🍌"
+},
 
-  "6-22": {
-    name: "Coco Cali",
-    series: "Series 3",
-    number: "022",
-    emoji: "🥥",
-    image: "",
-    description: "코코넛처럼 달콤하고 부드러운 매력이 있어요! 🥥"
-  },
+"6-22": {
+  name: "Coco Cali",
+  series: "Series 3",
+  number: "022",
+  emoji: "🥥",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Coco_Cali",
+  description: "코코넛처럼 달콤하고 부드러운 매력이 있어요! 🥥"
+},
 
-  "6-23": {
-    name: "Sadie Seeds",
-    series: "Series 3",
-    number: "023",
-    emoji: "🍉",
-    image: "",
-    description: "싱그럽고 귀여운 과일 같은 매력이 있어요! 💕"
-  },
+"6-23": {
+  name: "Sadie Seeds",
+  series: "Series 3",
+  number: "023",
+  emoji: "🍉",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sadie_Seeds",
+  description: "싱그럽고 귀여운 과일 같은 매력이 있어요! 💕"
+},
 
-  "6-24": {
-    name: "Stew Tomato",
-    series: "Series 3",
-    number: "024",
-    emoji: "🍅",
-    image: "",
-    description: "토마토처럼 상큼하고 발랄한 매력이 있어요! 🍅"
-  },
+"6-24": {
+  name: "Stew Tomato",
+  series: "Series 3",
+  number: "024",
+  emoji: "🍅",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Stew_Tomato",
+  description: "토마토처럼 상큼하고 발랄한 매력이 있어요! 🍅"
+},
 
-  "6-25": {
-    name: "Cyrus Citrus",
-    series: "Series 3",
-    number: "025",
-    emoji: "🍊",
-    image: "",
-    description: "상큼한 시트러스처럼 톡톡 튀는 매력이 있어요! 🍊"
-  },
+"6-25": {
+  name: "Cyrus Citrus",
+  series: "Series 3",
+  number: "025",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cyrus_Citrus",
+  description: "상큼한 시트러스처럼 톡톡 튀는 매력이 있어요! 🍊"
+},
 
-  "6-26": {
-    name: "Ava Apple",
-    series: "Series 3",
-    number: "026",
-    emoji: "🍎",
-    image: "",
-    description: "사과처럼 상큼하고 사랑스러운 매력이 있어요! 🍎"
-  },
+"6-26": {
+  name: "Ava Apple",
+  series: "Series 3",
+  number: "026",
+  emoji: "🍎",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Ava_Apple",
+  description: "사과처럼 상큼하고 사랑스러운 매력이 있어요! 🍎"
+},
 
-  "6-27": {
-    name: "Eda Mama",
-    series: "Series 3",
-    number: "027",
-    emoji: "🫛",
-    image: "",
-    description: "싱그럽고 귀여운 채소 같은 매력이 있어요! 💚"
-  },
+"6-27": {
+  name: "Eda Mama",
+  series: "Series 3",
+  number: "027",
+  emoji: "🫛",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Eda_Mama",
+  description: "싱그럽고 귀여운 채소 같은 매력이 있어요! 💚"
+},
 
-  "6-28": {
-    name: "Bunny Carrot",
-    series: "Series 3",
-    number: "028",
-    emoji: "🥕",
-    image: "",
-    description: "당근처럼 아삭하고 귀여운 매력이 있어요! 🥕"
-  },
+"6-28": {
+  name: "Bunny Carrot",
+  series: "Series 3",
+  number: "028",
+  emoji: "🥕",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Bunny_Carrot",
+  description: "당근처럼 아삭하고 귀여운 매력이 있어요! 🥕"
+},
 
-  "6-29": {
-    name: "Carrie Corn",
-    series: "Series 3",
-    number: "029",
-    emoji: "🌽",
-    image: "",
-    description: "달콤하고 톡톡 튀는 옥수수 같은 매력이 있어요! 🌽"
-  },
+"6-29": {
+  name: "Carrie Corn",
+  series: "Series 3",
+  number: "029",
+  emoji: "🌽",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Carrie_Corn",
+  description: "달콤하고 톡톡 튀는 옥수수 같은 매력이 있어요! 🌽"
+},
 
-  "6-30": {
-    name: "Paula Pumpkin",
-    series: "Series 3",
-    number: "030",
-    emoji: "🎃",
-    image: "",
-    description: "포근하고 달콤한 호박 같은 매력이 있어요! 🎃"
-  },
+"6-30": {
+  name: "Paula Pumpkin",
+  series: "Series 3",
+  number: "030",
+  emoji: "🎃",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Paula_Pumpkin",
+  description: "포근하고 달콤한 호박 같은 매력이 있어요! 🎃"
+},
   
     "7-1": {
-    name: "Emma Eggplant",
-    series: "Series 3",
-    number: "031",
-    emoji: "🍆",
-    image: "",
-    description: "통통하고 귀여운 가지처럼 개성 있는 매력이 있어요! 💜"
-  },
+  name: "Emma Eggplant",
+  series: "Series 3",
+  number: "031",
+  emoji: "🍆",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Emma_Eggplant",
+  description: "통통하고 귀여운 가지처럼 개성 있는 매력이 있어요! 💜"
+},
 
-  "7-2": {
-    name: "Coolie Cucumber",
-    series: "Series 3",
-    number: "032",
-    emoji: "🥒",
-    image: "",
-    description: "시원하고 아삭한 오이처럼 상쾌한 매력이 있어요! 💚"
-  },
+"7-2": {
+  name: "Coolie Cucumber",
+  series: "Series 3",
+  number: "032",
+  emoji: "🥒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Coolie_Cucumber",
+  description: "시원하고 아삭한 오이처럼 상쾌한 매력이 있어요! 💚"
+},
 
-  "7-3": {
-    name: "Maya Mallow",
-    series: "Series 3",
-    number: "033",
-    emoji: "☁️",
-    image: "",
-    description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
-  },
+"7-3": {
+  name: "Maya Mallow",
+  series: "Series 3",
+  number: "033",
+  emoji: "☁️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Maya_Mallow",
+  description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
+},
 
-  "7-4": {
-    name: "Minty Mallow",
-    series: "Series 3",
-    number: "034",
-    emoji: "🌿",
-    image: "",
-    description: "시원하고 부드러운 민트 마시멜로 같은 매력이에요! 💚"
-  },
+"7-4": {
+  name: "Minty Mallow",
+  series: "Series 3",
+  number: "034",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Minty_Mallow",
+  description: "시원하고 부드러운 민트 마시멜로 같은 매력이에요! 💚"
+},
 
-  "7-5": {
-    name: "B. Berry Mallow",
-    series: "Series 3",
-    number: "035",
-    emoji: "🫐",
-    image: "",
-    description: "달콤한 베리처럼 사랑스러운 마시멜로 매력이 있어요! 💜"
-  },
+"7-5": {
+  name: "B. Berry Mallow",
+  series: "Series 3",
+  number: "035",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/B._Berry_Mallow",
+  description: "달콤한 베리처럼 사랑스러운 마시멜로 매력이 있어요! 💜"
+},
 
-  "7-6": {
-    name: "Toasty Mallow",
-    series: "Series 3",
-    number: "036",
-    emoji: "🔥",
-    image: "",
-    description: "따뜻하고 폭신한 마시멜로 같은 매력이 있어요! 🤎"
-  },
+"7-6": {
+  name: "Toasty Mallow",
+  series: "Series 3",
+  number: "036",
+  emoji: "🔥",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Toasty_Mallow",
+  description: "따뜻하고 폭신한 마시멜로 같은 매력이 있어요! 🤎"
+},
 
-  "7-7": {
-    name: "Sara S'mores",
-    series: "Series 3",
-    number: "037",
-    emoji: "🍫",
-    image: "",
-    description: "달콤하고 포근한 스모어 같은 매력이 가득해요! 🍫"
-  },
+"7-7": {
+  name: "Sara S'mores",
+  series: "Series 3",
+  number: "037",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sara_S%27mores",
+  description: "달콤하고 포근한 스모어 같은 매력이 가득해요! 🍫"
+},
 
-  "7-8": {
-    name: "Bella Bubblegum",
-    series: "Series 3",
-    number: "038",
-    emoji: "🩷",
-    image: "",
-    description: "통통 튀는 버블검처럼 사랑스러운 매력이 있어요! 🩷"
-  },
+"7-8": {
+  name: "Bella Bubblegum",
+  series: "Series 3",
+  number: "038",
+  emoji: "🩷",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Bella_Bubblegum",
+  description: "통통 튀는 버블검처럼 사랑스러운 매력이 있어요! 🩷"
+},
 
-  "7-9": {
-    name: "C.C. Candy",
-    series: "Series 3",
-    number: "039",
-    emoji: "🍬",
-    image: "",
-    description: "달콤한 캔디처럼 귀엽고 사랑스러워요! 🍬"
-  },
+"7-9": {
+  name: "C.C. Candy",
+  series: "Series 3",
+  number: "039",
+  emoji: "🍬",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/C.C._Candy",
+  description: "달콤한 캔디처럼 귀엽고 사랑스러워요! 🍬"
+},
 
-  "7-10": {
-    name: "Cocoa Mallow",
-    series: "Series 3",
-    number: "040",
-    emoji: "🍫",
-    image: "",
-    description: "코코아처럼 달콤하고 포근한 매력이 있어요! 🤎"
-  },
+"7-10": {
+  name: "Cocoa Mallow",
+  series: "Series 3",
+  number: "040",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cocoa_Mallow",
+  description: "코코아처럼 달콤하고 포근한 매력이 있어요! 🤎"
+},
 
-  "7-11": {
-    name: "Softy Mallow",
-    series: "Series 3",
-    number: "041",
-    emoji: "☁️",
-    image: "",
-    description: "말랑말랑하고 폭신한 마시멜로 같은 매력이에요! ☁️"
-  },
+"7-11": {
+  name: "Softy Mallow",
+  series: "Series 3",
+  number: "041",
+  emoji: "☁️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Softy_Mallow",
+  description: "말랑말랑하고 폭신한 마시멜로 같은 매력이에요! ☁️"
+},
 
-  "7-12": {
-    name: "Strawberry Mallow",
-    series: "Series 3",
-    number: "042",
-    emoji: "🍓",
-    image: "",
-    description: "딸기처럼 상큼달콤하고 폭신해요! 🍓"
-  },
+"7-12": {
+  name: "Strawberry Mallow",
+  series: "Series 3",
+  number: "042",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Strawberry_Mallow",
+  description: "딸기처럼 상큼달콤하고 폭신해요! 🍓"
+},
 
-  "7-13": {
-    name: "Rachel Raspberry",
-    series: "Series 3",
-    number: "043",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤한 라즈베리처럼 발랄한 매력이 있어요! 💕"
-  },
+"7-13": {
+  name: "Rachel Raspberry",
+  series: "Series 3",
+  number: "043",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Rachel_Raspberry",
+  description: "새콤달콤한 라즈베리처럼 발랄한 매력이 있어요! 💕"
+},
 
-  "7-14": {
-    name: "Sugar Nana",
-    series: "Series 3",
-    number: "044",
-    emoji: "🍌",
-    image: "",
-    description: "달콤한 바나나 설탕처럼 사랑스러운 매력이 있어요! 🍌"
-  },
+"7-14": {
+  name: "Sugar Nana",
+  series: "Series 3",
+  number: "044",
+  emoji: "🍌",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sugar_Nana",
+  description: "달콤한 바나나 설탕처럼 사랑스러운 매력이 있어요! 🍌"
+},
 
-  "7-15": {
-    name: "Marsha Violet",
-    series: "Series 3",
-    number: "045",
-    emoji: "💜",
-    image: "",
-    description: "보랏빛처럼 부드럽고 신비로운 매력이 있어요! 💜"
-  },
+"7-15": {
+  name: "Marsha Violet",
+  series: "Series 3",
+  number: "045",
+  emoji: "💜",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Marsha_Violet",
+  description: "보랏빛처럼 부드럽고 신비로운 매력이 있어요! 💜"
+},
 
-  "7-16": {
-    name: "Blue Barry",
-    series: "Series 3",
-    number: "046",
-    emoji: "🫐",
-    image: "",
-    description: "블루베리처럼 상큼하고 귀여운 매력이 있어요! 💙"
-  },
+"7-16": {
+  name: "Blue Barry",
+  series: "Series 3",
+  number: "046",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Blue_Barry",
+  description: "블루베리처럼 상큼하고 귀여운 매력이 있어요! 💙"
+},
 
-  "7-17": {
-    name: "Sparkle Mellie",
-    series: "Series 3",
-    number: "047",
-    emoji: "✨",
-    image: "",
-    description: "반짝반짝 빛나는 캔디처럼 특별한 매력이 있어요! ✨"
-  },
+"7-17": {
+  name: "Sparkle Mellie",
+  series: "Series 3",
+  number: "047",
+  emoji: "✨",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sparkle_Mellie",
+  description: "반짝반짝 빛나는 캔디처럼 특별한 매력이 있어요! ✨"
+},
 
-  "7-18": {
-    name: "Suzy Stripes",
-    series: "Series 3",
-    number: "048",
-    emoji: "🍬",
-    image: "",
-    description: "알록달록 줄무늬 캔디처럼 발랄해요! 🌈"
-  },
+"7-18": {
+  name: "Suzy Stripes",
+  series: "Series 3",
+  number: "048",
+  emoji: "🍬",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Suzy_Stripes",
+  description: "알록달록 줄무늬 캔디처럼 발랄해요! 🌈"
+},
 
-  "7-19": {
-    name: "Sugar Stripes",
-    series: "Series 3",
-    number: "049",
-    emoji: "🍭",
-    image: "",
-    description: "달콤한 줄무늬 캔디 같은 매력이 있어요! 🍭"
-  },
+"7-19": {
+  name: "Sugar Stripes",
+  series: "Series 3",
+  number: "049",
+  emoji: "🍭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sugar_Stripes",
+  description: "달콤한 줄무늬 캔디 같은 매력이 있어요! 🍭"
+},
 
-  "7-20": {
-    name: "Courtney Candy",
-    series: "Series 3",
-    number: "050",
-    emoji: "🍬",
-    image: "",
-    description: "귀엽고 달콤한 캔디처럼 사랑스러워요! 💕"
-  },
+"7-20": {
+  name: "Courtney Candy",
+  series: "Series 3",
+  number: "050",
+  emoji: "🍬",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Courtney_Candy",
+  description: "귀엽고 달콤한 캔디처럼 사랑스러워요! 💕"
+},
 
-  "7-21": {
-    name: "Candy Hearts",
-    series: "Series 3",
-    number: "051",
-    emoji: "💗",
-    image: "",
-    description: "하트 캔디처럼 달콤하고 사랑스러워요! 💗"
-  },
+"7-21": {
+  name: "Candy Hearts",
+  series: "Series 3",
+  number: "051",
+  emoji: "💗",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Candy_Hearts",
+  description: "하트 캔디처럼 달콤하고 사랑스러워요! 💗"
+},
 
-  "7-22": {
-    name: "Tina Tangerine",
-    series: "Series 3",
-    number: "052",
-    emoji: "🍊",
-    image: "",
-    description: "탠저린처럼 상큼하고 밝은 매력이 있어요! 🍊"
-  },
+"7-22": {
+  name: "Tina Tangerine",
+  series: "Series 3",
+  number: "052",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Tina_Tangerine",
+  description: "탠저린처럼 상큼하고 밝은 매력이 있어요! 🍊"
+},
 
-  "7-23": {
-    name: "Rockie S. Berry",
-    series: "Series 3",
-    number: "053",
-    emoji: "🫐",
-    image: "",
-    description: "베리처럼 새콤달콤하고 톡톡 튀어요! 💜"
-  },
+"7-23": {
+  name: "Rockie S. Berry",
+  series: "Series 3",
+  number: "053",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Rockie_S._Berry",
+  description: "베리처럼 새콤달콤하고 톡톡 튀어요! 💜"
+},
 
-  "7-24": {
-    name: "Crystal W. Berry",
-    series: "Series 3",
-    number: "054",
-    emoji: "💎",
-    image: "",
-    description: "크리스털처럼 반짝이는 베리 매력이 있어요! ✨"
-  },
+"7-24": {
+  name: "Crystal W. Berry",
+  series: "Series 3",
+  number: "054",
+  emoji: "💎",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Crystal_W._Berry",
+  description: "크리스털처럼 반짝이는 베리 매력이 있어요! ✨"
+},
 
-  "7-25": {
-    name: "Nana Hearts",
-    series: "Series 3",
-    number: "055",
-    emoji: "💗",
-    image: "",
-    description: "달콤한 바나나와 하트처럼 사랑스러워요! 🍌"
-  },
+"7-25": {
+  name: "Nana Hearts",
+  series: "Series 3",
+  number: "055",
+  emoji: "💗",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Nana_Hearts",
+  description: "달콤한 바나나와 하트처럼 사랑스러워요! 🍌"
+},
 
-  "7-26": {
-    name: "Lily Lemony",
-    series: "Series 3",
-    number: "056",
-    emoji: "🍋",
-    image: "",
-    description: "레몬처럼 상큼하고 귀여운 매력이 있어요! 🍋"
-  },
+"7-26": {
+  name: "Lily Lemony",
+  series: "Series 3",
+  number: "056",
+  emoji: "🍋",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Lily_Lemony",
+  description: "레몬처럼 상큼하고 귀여운 매력이 있어요! 🍋"
+},
 
-  "7-27": {
-    name: "Gabby Grape",
-    series: "Series 3",
-    number: "057",
-    emoji: "🍇",
-    image: "",
-    description: "포도처럼 달콤하고 통통 튀는 매력이 있어요! 🍇"
-  },
+"7-27": {
+  name: "Gabby Grape",
+  series: "Series 3",
+  number: "057",
+  emoji: "🍇",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Gabby_Grape",
+  description: "포도처럼 달콤하고 통통 튀는 매력이 있어요! 🍇"
+},
 
-  "7-28": {
-    name: "Peyton Peppermint",
-    series: "Series 3",
-    number: "058",
-    emoji: "🌿",
-    image: "",
-    description: "페퍼민트처럼 시원하고 상쾌한 매력이 있어요! 💚"
-  },
+"7-28": {
+  name: "Peyton Peppermint",
+  series: "Series 3",
+  number: "058",
+  emoji: "🌿",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Peyton_Peppermint",
+  description: "페퍼민트처럼 시원하고 상쾌한 매력이 있어요! 💚"
+},
 
-  "7-29": {
-    name: "Mia Mango",
-    series: "Series 3",
-    number: "059",
-    emoji: "🥭",
-    image: "",
-    description: "달콤하고 상큼한 망고 같은 매력이 있어요! 🥭"
-  },
+"7-29": {
+  name: "Mia Mango",
+  series: "Series 3",
+  number: "059",
+  emoji: "🥭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mia_Mango",
+  description: "달콤하고 상큼한 망고 같은 매력이 있어요! 🥭"
+},
 
-  "7-30": {
-    name: "Brooklyn Blue",
-    series: "Series 3",
-    number: "060",
-    emoji: "💙",
-    image: "",
-    description: "블루베리처럼 상큼하고 사랑스러운 매력이 있어요! 💙"
-  },
+"7-30": {
+  name: "Brooklyn Blue",
+  series: "Series 3",
+  number: "060",
+  emoji: "💙",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Brooklyn_Blue",
+  description: "블루베리처럼 상큼하고 사랑스러운 매력이 있어요! 💙"
+},
 
-  "7-31": {
-    name: "Swirls Lolly",
-    series: "Series 3",
-    number: "061",
-    emoji: "🍭",
-    image: "",
-    description: "빙글빙글 소용돌이 캔디처럼 귀여운 매력이 있어요! 🍭"
-  },
+"7-31": {
+  name: "Swirls Lolly",
+  series: "Series 3",
+  number: "061",
+  emoji: "🍭",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Swirls_Lolly",
+  description: "빙글빙글 소용돌이 캔디처럼 귀여운 매력이 있어요! 🍭"
+},
 
-    "8-1": {
-    name: "Rainbow Pop",
-    series: "Series 3",
-    number: "062",
-    emoji: "🌈",
-    image: "",
-    description: "알록달록 무지개처럼 톡톡 튀는 매력이 있어요! 🌈"
-  },
+"8-1": {
+  name: "Rainbow Pop",
+  series: "Series 3",
+  number: "062",
+  emoji: "🌈",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Rainbow_Pop",
+  description: "알록달록 무지개처럼 톡톡 튀는 매력이 있어요! 🌈"
+},
 
-  "8-2": {
-    name: "Flower Tortilla",
-    series: "Series 3",
-    number: "063",
-    emoji: "🌮",
-    image: "",
-    description: "알록달록하고 귀여운 매력이 가득해요! 🌸"
-  },
+"8-2": {
+  name: "Flower Tortilla",
+  series: "Series 3",
+  number: "063",
+  emoji: "🌮",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Flower_Tortilla",
+  description: "알록달록하고 귀여운 매력이 가득해요! 🌸"
+},
 
-  "8-3": {
-    name: "Cinna Churro",
-    series: "Series 3",
-    number: "064",
-    emoji: "🥨",
-    image: "",
-    description: "달콤하고 따뜻한 시나몬처럼 포근해요! 🤎"
-  },
+"8-3": {
+  name: "Cinna Churro",
+  series: "Series 3",
+  number: "064",
+  emoji: "🥨",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cinna_Churro",
+  description: "달콤하고 따뜻한 시나몬처럼 포근해요! 🤎"
+},
 
-  "8-4": {
-    name: "Cheesy Burrito",
-    series: "Series 3",
-    number: "065",
-    emoji: "🌯",
-    image: "",
-    description: "치즈처럼 고소하고 귀여운 매력이 있어요! 🧀"
-  },
+"8-4": {
+  name: "Cheesy Burrito",
+  series: "Series 3",
+  number: "065",
+  emoji: "🌯",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cheesy_Burrito",
+  description: "치즈처럼 고소하고 귀여운 매력이 있어요! 🧀"
+},
 
-  "8-5": {
-    name: "Tasty Taco",
-    series: "Series 3",
-    number: "066",
-    emoji: "🌮",
-    image: "",
-    description: "톡톡 튀는 타코처럼 신나는 매력이 있어요! 🌮"
-  },
+"8-5": {
+  name: "Tasty Taco",
+  series: "Series 3",
+  number: "066",
+  emoji: "🌮",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Tasty_Taco",
+  description: "톡톡 튀는 타코처럼 신나는 매력이 있어요! 🌮"
+},
 
-  "8-6": {
-    name: "Berry Churro",
-    series: "Series 3",
-    number: "067",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤한 베리와 츄러스 같은 매력이에요! 💕"
-  },
+"8-6": {
+  name: "Berry Churro",
+  series: "Series 3",
+  number: "067",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berry_Churro",
+  description: "새콤달콤한 베리와 츄러스 같은 매력이에요! 💕"
+},
 
-  "8-7": {
-    name: "Slice & Wedge Erase-It",
-    series: "Series 3",
-    number: "068",
-    emoji: "🍉",
-    image: "",
-    description: "귀엽고 상큼한 과일 같은 매력이 있어요! 🍉"
-  },
+"8-7": {
+  name: "Slice & Wedge Erase-It",
+  series: "Series 3",
+  number: "068",
+  emoji: "🍉",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Slice_%26_Wedge_Erase-It",
+  description: "귀엽고 상큼한 과일 같은 매력이 있어요! 🍉"
+},
 
-  "8-8": {
-    name: "Pea & Pod Erase-It",
-    series: "Series 3",
-    number: "069",
-    emoji: "🫛",
-    image: "",
-    description: "싱그럽고 귀여운 완두콩 같은 매력이 있어요! 💚"
-  },
+"8-8": {
+  name: "Pea & Pod Erase-It",
+  series: "Series 3",
+  number: "069",
+  emoji: "🫛",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Pea_%26_Pod_Erase-It",
+  description: "싱그럽고 귀여운 완두콩 같은 매력이 있어요! 💚"
+},
 
-  "8-9": {
-    name: "Mallow Erase-It",
-    series: "Series 3",
-    number: "070",
-    emoji: "☁️",
-    image: "",
-    description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
-  },
+"8-9": {
+  name: "Mallow Erase-It",
+  series: "Series 3",
+  number: "070",
+  emoji: "☁️",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mallow_Erase-It",
+  description: "폭신폭신한 마시멜로처럼 포근해요! ☁️"
+},
 
-  "8-10": {
-    name: "Nana Erase-It",
-    series: "Series 3",
-    number: "071",
-    emoji: "🍌",
-    image: "",
-    description: "달콤한 바나나처럼 사랑스러운 매력이 있어요! 🍌"
-  },
+"8-10": {
+  name: "Nana Erase-It",
+  series: "Series 3",
+  number: "071",
+  emoji: "🍌",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Nana_Erase-It",
+  description: "달콤한 바나나처럼 사랑스러운 매력이 있어요! 🍌"
+},
 
-  "8-11": {
-    name: "Cherry Vanilla Gloss-Up",
-    series: "Series 3",
-    number: "072",
-    emoji: "🍒",
-    image: "",
-    description: "체리와 바닐라처럼 달콤하고 부드러워요! 🍒"
-  },
+"8-11": {
+  name: "Cherry Vanilla Gloss-Up",
+  series: "Series 3",
+  number: "072",
+  emoji: "🍒",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cherry_Vanilla_Gloss-Up",
+  description: "체리와 바닐라처럼 달콤하고 부드러워요! 🍒"
+},
 
-  "8-12": {
-    name: "Orange Piña Gloss-Up",
-    series: "Series 3",
-    number: "073",
-    emoji: "🍊",
-    image: "",
-    description: "오렌지와 파인애플처럼 상큼해요! 🍍"
-  },
+"8-12": {
+  name: "Orange Piña Gloss-Up",
+  series: "Series 3",
+  number: "073",
+  emoji: "🍊",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Orange_Pi%C3%B1a_Gloss-Up",
+  description: "오렌지와 파인애플처럼 상큼해요! 🍍"
+},
 
-  "8-13": {
-    name: "Straw-Nana Gloss-Up",
-    series: "Series 3",
-    number: "074",
-    emoji: "🍓",
-    image: "",
-    description: "딸기와 바나나처럼 달콤하고 사랑스러워요! 🍓"
-  },
+"8-13": {
+  name: "Straw-Nana Gloss-Up",
+  series: "Series 3",
+  number: "074",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Straw-Nana_Gloss-Up",
+  description: "딸기와 바나나처럼 달콤하고 사랑스러워요! 🍓"
+},
 
-  "8-14": {
-    name: "Cucumber Melon Gloss-Up",
-    series: "Series 3",
-    number: "075",
-    emoji: "🍈",
-    image: "",
-    description: "시원하고 싱그러운 멜론 같은 매력이 있어요! 🍈"
-  },
+"8-14": {
+  name: "Cucumber Melon Gloss-Up",
+  series: "Series 3",
+  number: "075",
+  emoji: "🍈",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Cucumber_Melon_Gloss-Up",
+  description: "시원하고 싱그러운 멜론 같은 매력이 있어요! 🍈"
+},
 
-  "8-15": {
-    name: "Mintberry Gloss-Up",
-    series: "Series 3",
-    number: "076",
-    emoji: "🫐",
-    image: "",
-    description: "상쾌한 민트와 달콤한 베리의 매력이 있어요! 💚"
-  },
+"8-15": {
+  name: "Mintberry Gloss-Up",
+  series: "Series 3",
+  number: "076",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Mintberry_Gloss-Up",
+  description: "상쾌한 민트와 달콤한 베리의 매력이 있어요! 💚"
+},
 
-  "8-16": {
-    name: "Choco-Razz Gloss-Up",
-    series: "Series 3",
-    number: "077",
-    emoji: "🍫",
-    image: "",
-    description: "초콜릿과 라즈베리처럼 달콤하고 상큼해요! 🍫"
-  },
+"8-16": {
+  name: "Choco-Razz Gloss-Up",
+  series: "Series 3",
+  number: "077",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Choco-Razz_Gloss-Up",
+  description: "초콜릿과 라즈베리처럼 달콤하고 상큼해요! 🍫"
+},
 
-  "8-17": {
-    name: "Van-Berry Gloss-Up",
-    series: "Series 3",
-    number: "078",
-    emoji: "🫐",
-    image: "",
-    description: "바닐라와 베리처럼 부드럽고 달콤해요! 💜"
-  },
+"8-17": {
+  name: "Van-Berry Gloss-Up",
+  series: "Series 3",
+  number: "078",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Van-Berry_Gloss-Up",
+  description: "바닐라와 베리처럼 부드럽고 달콤해요! 💜"
+},
 
-  "8-18": {
-    name: "Peachy Piña Gloss-Up",
-    series: "Series 3",
-    number: "079",
-    emoji: "🍑",
-    image: "",
-    description: "복숭아와 파인애플처럼 상큼달콤해요! 🍑"
-  },
+"8-18": {
+  name: "Peachy Piña Gloss-Up",
+  series: "Series 3",
+  number: "079",
+  emoji: "🍑",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Peachy_Pi%C3%B1a_Gloss-Up",
+  description: "복숭아와 파인애플처럼 상큼달콤해요! 🍑"
+},
 
-  "8-19": {
-    name: "Grapple Gloss-Up",
-    series: "Series 3",
-    number: "080",
-    emoji: "🍇",
-    image: "",
-    description: "포도와 사과처럼 상큼하고 달콤해요! 🍇"
-  },
+"8-19": {
+  name: "Grapple Gloss-Up",
+  series: "Series 3",
+  number: "080",
+  emoji: "🍇",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Grapple_Gloss-Up",
+  description: "포도와 사과처럼 상큼하고 달콤해요! 🍇"
+},
 
-  "8-20": {
-    name: "Blue Razz Gloss-Up",
-    series: "Series 3",
-    number: "081",
-    emoji: "🫐",
-    image: "",
-    description: "블루 라즈베리처럼 톡톡 튀는 매력이 있어요! 💙"
-  },
+"8-20": {
+  name: "Blue Razz Gloss-Up",
+  series: "Series 3",
+  number: "081",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Blue_Razz_Gloss-Up",
+  description: "블루 라즈베리처럼 톡톡 튀는 매력이 있어요! 💙"
+},
 
-  "8-21": {
-    name: "Choco S'Mores Gloss-Up",
-    series: "Series 3",
-    number: "082",
-    emoji: "🍫",
-    image: "",
-    description: "초콜릿 스모어처럼 달콤하고 포근해요! 🍫"
-  },
+"8-21": {
+  name: "Choco S'Mores Gloss-Up",
+  series: "Series 3",
+  number: "082",
+  emoji: "🍫",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Choco_S%27Mores_Gloss-Up",
+  description: "초콜릿 스모어처럼 달콤하고 포근해요! 🍫"
+},
 
-  "8-22": {
-    name: "Glitter Surprise Gloss-Up",
-    series: "Series 3",
-    number: "083",
-    emoji: "✨",
-    image: "",
-    description: "반짝반짝 특별한 매력이 가득해요! ✨"
-  },
+"8-22": {
+  name: "Glitter Surprise Gloss-Up",
+  series: "Series 3",
+  number: "083",
+  emoji: "✨",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Glitter_Surprise_Gloss-Up",
+  description: "반짝반짝 특별한 매력이 가득해요! ✨"
+},
 
-  "8-23": {
-    name: "Donut Stamp-It",
-    series: "Series 3",
-    number: "084",
-    emoji: "🍩",
-    image: "",
-    description: "달콤한 도넛처럼 귀엽고 사랑스러워요! 🍩"
-  },
+"8-23": {
+  name: "Donut Stamp-It",
+  series: "Series 3",
+  number: "084",
+  emoji: "🍩",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Donut_Stamp-It",
+  description: "달콤한 도넛처럼 귀엽고 사랑스러워요! 🍩"
+},
 
-  "8-24": {
-    name: "Berry Gummy Stamp-It",
-    series: "Series 3",
-    number: "085",
-    emoji: "🫐",
-    image: "",
-    description: "말랑말랑한 베리 구미처럼 달콤해요! 💕"
-  },
+"8-24": {
+  name: "Berry Gummy Stamp-It",
+  series: "Series 3",
+  number: "085",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berry_Gummy_Stamp-It",
+  description: "말랑말랑한 베리 구미처럼 달콤해요! 💕"
+},
 
-  "8-25": {
-    name: "Melon Gummy Stamp-It",
-    series: "Series 3",
-    number: "086",
-    emoji: "🍈",
-    image: "",
-    description: "달콤하고 말랑한 멜론 구미 같은 매력이에요! 🍈"
-  },
+"8-25": {
+  name: "Melon Gummy Stamp-It",
+  series: "Series 3",
+  number: "086",
+  emoji: "🍈",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Melon_Gummy_Stamp-It",
+  description: "달콤하고 말랑한 멜론 구미 같은 매력이에요! 🍈"
+},
 
-  "8-26": {
-    name: "Berry Stamp-It",
-    series: "Series 3",
-    number: "087",
-    emoji: "🍓",
-    image: "",
-    description: "새콤달콤한 베리처럼 귀여운 매력이 있어요! 🍓"
-  },
+"8-26": {
+  name: "Berry Stamp-It",
+  series: "Series 3",
+  number: "087",
+  emoji: "🍓",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Berry_Stamp-It",
+  description: "새콤달콤한 베리처럼 귀여운 매력이 있어요! 🍓"
+},
 
-  "8-27": {
-    name: "Blueberry Stamp-It",
-    series: "Series 3",
-    number: "088",
-    emoji: "🫐",
-    image: "",
-    description: "상큼한 블루베리처럼 사랑스러워요! 💙"
-  },
+"8-27": {
+  name: "Blueberry Stamp-It",
+  series: "Series 3",
+  number: "088",
+  emoji: "🫐",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Blueberry_Stamp-It",
+  description: "상큼한 블루베리처럼 사랑스러워요! 💙"
+},
 
-  "8-28": {
-    name: "Peachy Stamp-It",
-    series: "Series 3",
-    number: "089",
-    emoji: "🍑",
-    image: "",
-    description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
-  },
+"8-28": {
+  name: "Peachy Stamp-It",
+  series: "Series 3",
+  number: "089",
+  emoji: "🍑",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Peachy_Stamp-It",
+  description: "복숭아처럼 말랑하고 달콤한 매력이 있어요! 🍑"
+},
 
-    "8-29": {
-    name: "Sugar Wafer",
-    series: "Series 4",
-    number: "001",
-    emoji: "🍪",
-    image: "",
-    description: "바삭하고 달콤한 웨이퍼처럼 사랑스러운 매력이 있어요! 🍪"
-  },
+"8-29": {
+  name: "Sugar Wafer",
+  series: "Series 4",
+  number: "001",
+  emoji: "🍪",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Sugar_Wafer",
+  description: "바삭하고 달콤한 웨이퍼처럼 사랑스러운 매력이 있어요! 🍪"
+},
 
-  "8-30": {
-    name: "Latte Crisp",
-    series: "Series 4",
-    number: "002",
-    emoji: "☕",
-    image: "",
-    description: "부드러운 라떼처럼 포근하고 달콤한 매력이 있어요! ☕"
-  },
+"8-30": {
+  name: "Latte Crisp",
+  series: "Series 4",
+  number: "002",
+  emoji: "☕",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Latte_Crisp",
+  description: "부드러운 라떼처럼 포근하고 달콤한 매력이 있어요! ☕"
+},
 
-  "8-31": {
-    name: "Willow Wafer",
-    series: "Series 4",
-    number: "003",
-    emoji: "🍪",
-    image: "",
-    description: "달콤하고 바삭한 웨이퍼 같은 매력이 있어요! 🍪"
-  },
+"8-31": {
+  name: "Willow Wafer",
+  series: "Series 4",
+  number: "003",
+  emoji: "🍪",
+  image: "",
+  link: "https://num-noms.fandom.com/wiki/Willow_Wafer",
+  description: "달콤하고 바삭한 웨이퍼 같은 매력이 있어요! 🍪"
+},
 
     "9-1": {
     name: "Sprinkle Berry",
