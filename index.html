@@ -615,47 +615,129 @@
 
     /* 캐릭터 찾기 */
 
-    function findCharacter() {
+function findCharacter() {
+
+  const month = Number(monthSelect.value);
+  const day = Number(daySelect.value);
+
+  if (!month || !day) {
+
+    alert("생일을 선택해주세요! 🍓");
+
+    return;
+
+  }
 
 
-      const month =
-        monthSelect.value;
+  const characters = {
 
-      const day =
-        daySelect.value;
+    "1-1": {
+      name: "Strawberry",
+      emoji: "🍓",
+      description: "상큼하고 달콤한 매력을 가진 Num Noms예요! ♡"
+    },
 
+    "1-2": {
+      name: "Lemonade",
+      emoji: "🍋",
+      description: "톡톡 튀는 상큼함이 매력적인 Num Noms예요! ✨"
+    },
 
-      if (!month || !day) {
+    "1-3": {
+      name: "Orange",
+      emoji: "🍊",
+      description: "밝고 상큼한 에너지를 가진 Num Noms예요! ♡"
+    },
 
-        alert(
-          "생일을 선택해주세요! 🍓"
-        );
+    "1-4": {
+      name: "Nana Cream",
+      emoji: "🍌",
+      description: "부드럽고 달콤한 매력을 가진 Num Noms예요! 🎀"
+    },
 
-        return;
+    "1-5": {
+      name: "Bubblegum",
+      emoji: "🩷",
+      description: "통통 튀는 달콤함이 매력인 Num Noms예요! ✨"
+    },
 
-      }
+    "1-6": {
+      name: "Sweetie",
+      emoji: "🍬",
+      description: "달콤하고 사랑스러운 분위기의 Num Noms예요! 💗"
+    },
 
+    "1-7": {
+      name: "Mango",
+      emoji: "🥭",
+      description: "달콤하고 상큼한 열대과일 느낌의 Num Noms예요! 🌴"
+    },
 
-      document.getElementById(
-        "result"
-      ).style.display = "block";
+    "1-8": {
+      name: "Peach",
+      emoji: "🍑",
+      description: "말랑말랑하고 달콤한 매력을 가진 Num Noms예요! 🎀"
+    },
 
+    "1-9": {
+      name: "Blueberry",
+      emoji: "🫐",
+      description: "귀엽고 상큼한 블루베리 느낌의 Num Noms예요! 💙"
+    },
 
-      document.getElementById(
-        "dateText"
-      ).textContent =
-        month + "월 " + day + "일";
-
-
-      document.getElementById(
-        "result"
-      ).scrollIntoView({
-        behavior: "smooth",
-        block: "nearest"
-      });
-
+    "1-10": {
+      name: "Raspberry",
+      emoji: "🍓",
+      description: "새콤달콤하고 발랄한 매력의 Num Noms예요! 💕"
     }
 
+  };
+
+
+  const key = month + "-" + day;
+
+  const character = characters[key];
+
+
+  if (character) {
+
+    document.getElementById("characterEmoji").textContent =
+      character.emoji;
+
+    document.getElementById("characterName").textContent =
+      character.name;
+
+    document.getElementById("description").textContent =
+      character.description;
+
+  } else {
+
+    document.getElementById("characterEmoji").textContent =
+      "🎀";
+
+    document.getElementById("characterName").textContent =
+      "Coming Soon!";
+
+    document.getElementById("description").textContent =
+      "이 날짜의 Num Noms는 아직 준비 중이에요! ♡";
+
+  }
+
+
+  document.getElementById("dateText").textContent =
+    month + "월 " + day + "일";
+
+
+  document.getElementById("result").style.display =
+    "block";
+
+
+  document.getElementById("result").scrollIntoView({
+    behavior: "smooth",
+    block: "nearest"
+  });
+
+}
   </script>
 
 
